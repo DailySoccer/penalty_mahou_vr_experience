@@ -2,3 +2,5 @@
 /Library/ShaderCache
 /Library/metadata
 /obj
+/Library/*.log
+/Library/CurrentLayout.dwlt
