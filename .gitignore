@@ -1,3 +1,4 @@
 /Temp
 /Library/ShaderCache
-/Library/metadata/*
+/Library/metadata
+/obj
