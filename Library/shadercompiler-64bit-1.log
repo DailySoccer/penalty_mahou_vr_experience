@@ -1,0 +1,3071 @@
+Base path: C:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-1876
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=9195 outsize=2321 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6522 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6522 outsize=1899 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6517 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6517 outsize=3565 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6517 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6517 outsize=1485 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6517 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6517 outsize=1485 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6519 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6519 outsize=1810 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6519 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6519 outsize=1485 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6528 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6528 outsize=1444 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6533 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6533 outsize=1363 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6526 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6526 outsize=868 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6524 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6524 outsize=1526 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6531 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6531 outsize=1948 kw= ok=1
+Cmd: preprocess
+  insize=1572 outsize=888 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=986 outsize=1290 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=986 outsize=811 kw= ok=1
+Cmd: preprocess
+  insize=11276 outsize=717 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10591 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10591 outsize=1688 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10613 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10613 outsize=9285 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10612 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10612 outsize=9301 kw= ok=1
+Cmd: preprocess
+  insize=1438 outsize=1895 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14590 outsize=3801 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14590 outsize=2972 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8076 outsize=2753 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8076 outsize=2013 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6392 outsize=2151 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6392 outsize=648 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13178 outsize=3809 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13178 outsize=2826 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7118 outsize=3053 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7118 outsize=3638 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=929 outsize=1264 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6769 outsize=3663 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6769 outsize=1249 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3040 outsize=2484 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3040 outsize=1249 kw= ok=1
+Cmd: preprocess
+  insize=1626 outsize=825 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1102 outsize=5824 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1102 outsize=2948 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=6380 outsize=2252 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (68): undeclared identifier 'TreeVertLeaf'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_GAMMA
+  api=4 type=0 insize=2548 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_GAMMA ok=0
+Cmd: preprocess
+  insize=2532 outsize=2238 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7644 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7644 outsize=4426 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4208 outsize=3906 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4208 outsize=4386 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7646 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7646 outsize=4467 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4210 outsize=3906 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4210 outsize=4166 kw= ok=1
+Cmd: preprocess
+  insize=1802 outsize=901 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1203 outsize=1404 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1203 outsize=1184 kw= ok=1
+Cmd: preprocess
+  insize=3013 outsize=1088 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2233 outsize=5182 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2233 outsize=762 kw= ok=1
+Cmd: preprocess
+  insize=2785 outsize=2444 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8065 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8065 outsize=5661 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4969 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4969 outsize=5621 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8067 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8067 outsize=5702 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4971 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4971 outsize=5401 kw= ok=1
+Cmd: preprocess
+  insize=1209 outsize=458 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=997 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=997 outsize=859 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=996 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=996 outsize=859 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 16 at (21): Surface shader vertex function 'TreeVertLeaf' not found
+  insize=1497 outsize=935 ok=0
+Cmd: preprocess
+  insize=9741 outsize=918 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9031 outsize=1924 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9031 outsize=3110 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9035 outsize=2013 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9035 outsize=3313 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9055 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9055 outsize=4979 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9050 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9050 outsize=5239 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9054 outsize=1493 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9054 outsize=1518 kw= ok=1
+Cmd: preprocess
+  insize=1606 outsize=1953 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16390 outsize=5068 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16390 outsize=3988 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10160 outsize=3866 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10160 outsize=2956 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8812 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8812 outsize=1680 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14248 outsize=5028 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14248 outsize=3890 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9276 outsize=4313 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9276 outsize=4703 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1685 outsize=352 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1635 outsize=1363 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1635 outsize=1981 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 1 at (72): undefined variable "HDRtoRGBM"
+  error: 1 plat 1 at (81): implicit cast from "half3" to "half"
+  error: 2 plat 1 at (121): undefined variable "HDRtoRGBM"
+  error: 1 plat 1 at (130): implicit cast from "half3" to "half"
+  error: 2 plat 1 at (169): undefined variable "HDRtoRGBM"
+  error: 1 plat 1 at (178): implicit cast from "half3" to "half"
+  error: 2 plat 1 at (217): undefined variable "HDRtoRGBM"
+  error: 1 plat 1 at (226): implicit cast from "half3" to "half"
+  error: 2 plat 1 at (268): undefined variable "HDRtoRGBM"
+  error: 1 plat 1 at (277): implicit cast from "half3" to "half"
+  insize=7282 outsize=13119 ok=0
+Cmd: preprocess
+  insize=1748 outsize=2185 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15942 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15942 outsize=7782 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10066 outsize=3866 kw=POINT MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10066 outsize=5970 kw=POINT MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8430 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8430 outsize=2224 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14776 outsize=5312 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14776 outsize=7091 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9804 outsize=4597 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9804 outsize=7408 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1982 outsize=653 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (43): Output value 'vert' is not completely initialized\nCompiling Vertex program with LIGHTMAP_OFF
+  api=4 type=0 insize=1635 outsize=4451 kw=LIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1635 outsize=998 kw=LIGHTMAP_OFF ok=1
+Cmd: preprocess
+  insize=1519 outsize=597 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1224 outsize=1696 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1224 outsize=1022 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=919 outsize=355 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=869 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=869 outsize=1241 kw= ok=1
+Cmd: preprocess
+  insize=219 outsize=219 ok=1
+Cmd: preprocess
+  insize=1745 outsize=2070 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15630 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15630 outsize=6393 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8844 outsize=2753 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8844 outsize=4768 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7292 outsize=2371 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7292 outsize=1282 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14688 outsize=4703 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14688 outsize=5743 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8812 outsize=3906 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8812 outsize=6019 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1524 outsize=504 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1322 outsize=1404 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1322 outsize=1753 kw= ok=1
+Cmd: preprocess
+  insize=1006 outsize=316 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=995 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=995 outsize=973 kw= ok=1
+Cmd: preprocess
+  insize=950 outsize=1912 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7385 outsize=4873 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7385 outsize=2233 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4809 outsize=3955 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4809 outsize=2915 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4191 outsize=4004 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4191 outsize=1867 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6395 outsize=4077 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6395 outsize=1542 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7235 outsize=5011 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7235 outsize=2566 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4039 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4039 outsize=1591 kw= ok=1
+Cmd: preprocess
+  insize=1452 outsize=480 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1274 outsize=1404 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1274 outsize=1152 kw= ok=1
+Cmd: preprocess
+  insize=2818 outsize=3519 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7973 outsize=4378 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7973 outsize=4743 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4487 outsize=2753 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4487 outsize=4199 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3678 outsize=2371 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3678 outsize=1282 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7480 outsize=4849 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7480 outsize=4272 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4512 outsize=4053 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4512 outsize=4703 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7975 outsize=4378 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7975 outsize=4784 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4489 outsize=2753 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4489 outsize=4199 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3680 outsize=2371 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3680 outsize=1282 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7482 outsize=4849 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7482 outsize=4313 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4514 outsize=4053 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4514 outsize=4483 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 1 at (36): undefined variable "HDRtoRGBM"
+  insize=1239 outsize=2237 ok=0
+Cmd: preprocess
+  insize=3427 outsize=1883 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1085 outsize=4434 kw=MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1085 outsize=1607 kw=MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1044 outsize=2322 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1044 outsize=884 kw=SHADOWS_DEPTH ok=1
+Cmd: preprocess
+  insize=2747 outsize=2437 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8050 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8050 outsize=5604 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4954 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4954 outsize=5564 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8052 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8052 outsize=5645 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4956 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4956 outsize=5344 kw= ok=1
+Cmd: preprocess
+  insize=1171 outsize=1921 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7374 outsize=4873 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7374 outsize=2143 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4180 outsize=4004 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4180 outsize=1843 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6384 outsize=4077 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6384 outsize=1453 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7224 outsize=5011 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7224 outsize=2476 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4028 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4028 outsize=1501 kw= ok=1
+Cmd: preprocess
+  insize=1755 outsize=2217 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15958 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15958 outsize=7725 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10094 outsize=3866 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10094 outsize=5913 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8446 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8446 outsize=2224 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14792 outsize=5312 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14792 outsize=7034 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9820 outsize=4597 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9820 outsize=7351 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1989 outsize=486 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1805 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1805 outsize=1704 kw= ok=1
+Cmd: preprocess
+  insize=1291 outsize=412 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1184 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1184 outsize=1542 kw= ok=1
+Cmd: preprocess
+  insize=1576 outsize=776 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at ../MarmosetVertex.cginc(73): Output value 'MarmosetVert' is not completely initialized\nCompiling Vertex program with MARMO_LINEAR
+  api=4 type=0 insize=1102 outsize=6149 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1102 outsize=2712 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1740 outsize=2202 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15290 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15290 outsize=6653 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8478 outsize=2753 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8478 outsize=4946 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7006 outsize=2371 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7006 outsize=1591 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14348 outsize=4703 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14348 outsize=5921 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8526 outsize=3906 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8526 outsize=6133 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=3615 outsize=712 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3140 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3140 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3138 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3138 outsize=1225 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3183 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3183 outsize=2801 kw= ok=1
+Cmd: preprocess
+  insize=1579 outsize=1415 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7368 outsize=3801 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7368 outsize=2208 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3605 outsize=3053 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3605 outsize=3004 kw= ok=1
+Cmd: preprocess
+  insize=1130 outsize=1368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7244 outsize=4873 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7244 outsize=1989 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3956 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3956 outsize=1347 kw= ok=1
+Cmd: preprocess
+  insize=3014 outsize=3833 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16666 outsize=5003 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16666 outsize=9163 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11052 outsize=4239 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=11052 outsize=8107 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9306 outsize=4288 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9306 outsize=4451 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15024 outsize=5686 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15024 outsize=8944 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16012 outsize=5361 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16012 outsize=8952 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7232 outsize=4524 kw=SHADOWS_DEPTH MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7232 outsize=575 kw=SHADOWS_DEPTH MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10060 outsize=4971 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10060 outsize=9756 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1702 outsize=2160 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15168 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15168 outsize=6393 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8382 outsize=2753 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8382 outsize=4768 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6830 outsize=2371 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6830 outsize=1282 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14226 outsize=4703 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14226 outsize=5743 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8350 outsize=3906 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8350 outsize=6019 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=2584 outsize=2206 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7685 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7685 outsize=3411 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4249 outsize=3906 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4249 outsize=4256 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7689 outsize=4093 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7689 outsize=3143 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4253 outsize=3906 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4253 outsize=4036 kw= ok=1
+Cmd: preprocess
+  insize=1838 outsize=2303 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15156 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15156 outsize=6913 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8370 outsize=2753 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8370 outsize=4768 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6818 outsize=2371 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6818 outsize=1282 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14214 outsize=4703 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14214 outsize=6263 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8338 outsize=3906 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8338 outsize=6539 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=3730 outsize=762 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2362 outsize=4483 kw=MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2362 outsize=1956 kw=MARMO_GAMMA ok=1
+Cmd: preprocess
+  insize=480 outsize=480 ok=1
+Cmd: preprocess
+  error: 2 plat 16 at (25): Surface shader vertex function 'TreeVertBark' not found
+  insize=1420 outsize=958 ok=0
+Cmd: preprocess
+  insize=1811 outsize=2161 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15828 outsize=4378 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15828 outsize=6709 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8844 outsize=2753 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8844 outsize=4768 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7292 outsize=2371 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7292 outsize=1282 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14836 outsize=4849 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14836 outsize=6059 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8960 outsize=4053 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8960 outsize=6336 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1235 outsize=409 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1131 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1131 outsize=1973 kw= ok=1
+Cmd: preprocess
+  insize=6551 outsize=798 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (42): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  error: 1 plat 4 at (45): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  error: 1 plat 4 at (48): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  api=4 type=0 insize=1797 outsize=1225 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (42): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  error: 1 plat 4 at (45): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  error: 1 plat 4 at (48): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  api=4 type=1 insize=1797 outsize=12251 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (42): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  error: 1 plat 4 at (45): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  error: 1 plat 4 at (48): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  api=4 type=0 insize=2061 outsize=1225 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (42): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  error: 1 plat 4 at (45): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  error: 1 plat 4 at (48): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  api=4 type=1 insize=2061 outsize=20148 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (42): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  error: 1 plat 4 at (45): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  error: 1 plat 4 at (48): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  api=4 type=0 insize=2567 outsize=1225 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (42): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  error: 1 plat 4 at (45): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  error: 1 plat 4 at (48): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  api=4 type=1 insize=2567 outsize=35943 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (42): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  error: 1 plat 4 at (45): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  error: 1 plat 4 at (48): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  error: 1 plat 4 at (228): 's': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Vertex program
+  api=4 type=0 insize=2840 outsize=1087 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (42): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  error: 1 plat 4 at (45): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  error: 1 plat 4 at (48): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  error: 1 plat 4 at (228): 's': loop control variable conflicts with a previous declaration in the outer scope; most recent declaration will be used\nCompiling Fragment program
+  api=4 type=1 insize=2840 outsize=4028 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (42): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  error: 1 plat 4 at (45): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  error: 1 plat 4 at (48): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Vertex program
+  api=4 type=0 insize=1780 outsize=1119 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (42): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  error: 1 plat 4 at (45): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  error: 1 plat 4 at (48): 'INPUT_SAMPLE_COUNT' : macro redefinition\nCompiling Fragment program
+  api=4 type=1 insize=1780 outsize=1111 kw= ok=1
+Cmd: preprocess
+  insize=2591 outsize=2314 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8033 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8033 outsize=5604 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4937 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4937 outsize=5564 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8035 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8035 outsize=5645 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4939 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4939 outsize=5344 kw= ok=1
+Cmd: preprocess
+  insize=1173 outsize=314 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1164 outsize=1753 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1164 outsize=1412 kw= ok=1
+Cmd: preprocess
+  insize=899 outsize=1350 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7255 outsize=4873 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7255 outsize=2054 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4693 outsize=3955 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4693 outsize=2736 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3967 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3967 outsize=1412 kw= ok=1
+Cmd: preprocess
+  insize=542 outsize=542 ok=1
+Cmd: preprocess
+  insize=4414 outsize=1185 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3539 outsize=6669 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3539 outsize=762 kw= ok=1
+Cmd: preprocess
+  insize=2636 outsize=773 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1965 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1965 outsize=1217 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1962 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1962 outsize=949 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1975 outsize=1656 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1975 outsize=1323 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1974 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1974 outsize=868 kw= ok=1
+Cmd: preprocess
+  insize=968 outsize=305 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=968 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=968 outsize=1006 kw= ok=1
+Cmd: preprocess
+  insize=1377 outsize=384 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1295 outsize=1469 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1295 outsize=1453 kw= ok=1
+Cmd: preprocess
+  insize=1420 outsize=347 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1379 outsize=1802 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1379 outsize=1347 kw= ok=1
+Cmd: preprocess
+  insize=1709 outsize=728 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1287 outsize=1843 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1287 outsize=1371 kw= ok=1
+Cmd: preprocess
+  insize=2870 outsize=3572 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7973 outsize=4378 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7973 outsize=4564 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4561 outsize=2899 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4561 outsize=4337 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3678 outsize=2371 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3678 outsize=1282 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7480 outsize=4849 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7480 outsize=4093 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4512 outsize=4053 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4512 outsize=4524 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7975 outsize=4378 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7975 outsize=4605 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4563 outsize=2899 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4563 outsize=4337 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3680 outsize=2371 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3680 outsize=1282 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7482 outsize=4849 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7482 outsize=4134 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4514 outsize=4053 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4514 outsize=4304 kw= ok=1
+Cmd: preprocess
+  insize=1853 outsize=1884 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16159 outsize=3508 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16159 outsize=2980 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9685 outsize=2753 kw=POINT MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9685 outsize=2013 kw=POINT MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8053 outsize=2533 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8053 outsize=697 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14377 outsize=4191 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14377 outsize=2720 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14313 outsize=3508 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14313 outsize=3297 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8779 outsize=3435 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8779 outsize=3533 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1097 outsize=1332 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7249 outsize=4898 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7249 outsize=1989 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3959 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3959 outsize=1347 kw= ok=1
+Cmd: preprocess
+  insize=1547 outsize=1879 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7715 outsize=3947 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7715 outsize=2029 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4365 outsize=2753 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4365 outsize=2013 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3490 outsize=2151 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3490 outsize=648 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6987 outsize=3955 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6987 outsize=2054 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3927 outsize=3199 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3927 outsize=2866 kw= ok=1
+Cmd: preprocess
+  insize=1403 outsize=346 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1359 outsize=1363 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1359 outsize=1518 kw= ok=1
+Cmd: preprocess
+  insize=594 outsize=591 ok=1
+Cmd: preprocess
+  insize=1707 outsize=771 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1123 outsize=4402 kw=MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1123 outsize=1412 kw=MARMO_GAMMA ok=1
+Cmd: preprocess
+  insize=1615 outsize=1947 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15298 outsize=3947 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15298 outsize=3110 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8734 outsize=2899 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8734 outsize=2151 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6902 outsize=2151 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6902 outsize=648 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13836 outsize=3955 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13836 outsize=2964 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7776 outsize=3199 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7776 outsize=3776 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1268 outsize=329 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1244 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1244 outsize=1444 kw= ok=1
+Cmd: preprocess
+  insize=2306 outsize=643 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1968 outsize=1444 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1968 outsize=3224 kw= ok=1
+Cmd: preprocess
+  insize=175644 outsize=175644 ok=1
+Cmd: preprocess
+  insize=965 outsize=271 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=994 outsize=1071 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=994 outsize=1233 kw= ok=1
+Cmd: preprocess
+  insize=1534 outsize=1993 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15854 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15854 outsize=3971 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9796 outsize=3866 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9796 outsize=3134 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8528 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8528 outsize=2021 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13762 outsize=4881 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13762 outsize=3793 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8844 outsize=4166 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8844 outsize=4605 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=179 outsize=179 ok=1
+Cmd: preprocess
+  insize=790 outsize=320 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=772 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=772 outsize=1119 kw= ok=1
+Cmd: preprocess
+  insize=6455 outsize=995 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5436 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5436 outsize=892 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5443 outsize=1599 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5443 outsize=1534 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5447 outsize=1412 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5447 outsize=1534 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5448 outsize=1412 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5448 outsize=1534 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5452 outsize=1769 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5452 outsize=1802 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5453 outsize=1769 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5453 outsize=1802 kw= ok=1
+Cmd: preprocess
+  insize=785 outsize=782 ok=1
+Cmd: preprocess
+  insize=2699 outsize=2380 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7656 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7656 outsize=4426 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4220 outsize=3906 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4220 outsize=4386 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7658 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7658 outsize=4467 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4222 outsize=3906 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4222 outsize=4166 kw= ok=1
+Cmd: preprocess
+  insize=1804 outsize=2126 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16432 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16432 outsize=7725 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10568 outsize=3866 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10568 outsize=5913 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8920 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8920 outsize=2224 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15266 outsize=5312 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15266 outsize=7034 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10294 outsize=4597 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10294 outsize=7351 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1540 outsize=1328 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7722 outsize=3939 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7722 outsize=2151 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3912 outsize=3167 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3912 outsize=2988 kw= ok=1
+Cmd: preprocess
+  insize=32636 outsize=273 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=32665 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=32665 outsize=10764 kw= ok=1
+Cmd: preprocess
+  insize=1835 outsize=877 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1260 outsize=1404 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1260 outsize=1152 kw= ok=1
+Cmd: preprocess
+  insize=1216 outsize=260 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1258 outsize=1274 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1258 outsize=1453 kw= ok=1
+Cmd: preprocess
+  insize=3601 outsize=704 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2929 outsize=1859 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2929 outsize=2314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2920 outsize=1859 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2920 outsize=1721 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2919 outsize=1859 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2919 outsize=1769 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2931 outsize=1859 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2931 outsize=2249 kw= ok=1
+Cmd: preprocess
+  insize=2659 outsize=936 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (56): undeclared identifier 'TreeVertLeaf'\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=2061 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=1918 outsize=2264 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16806 outsize=5060 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16806 outsize=8164 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10848 outsize=4004 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10848 outsize=5962 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9200 outsize=3622 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9200 outsize=2273 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15546 outsize=5450 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15546 outsize=7473 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10574 outsize=4711 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10574 outsize=7790 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1440 outsize=1273 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7371 outsize=3801 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7371 outsize=1753 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3608 outsize=3053 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3608 outsize=2590 kw= ok=1
+Cmd: preprocess
+  insize=1721 outsize=2368 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15720 outsize=6498 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15720 outsize=2899 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9192 outsize=5588 kw=POINT MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9192 outsize=2314 kw=POINT MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7898 outsize=5588 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7898 outsize=1201 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13884 outsize=7026 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13884 outsize=3021 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13822 outsize=6636 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13822 outsize=3232 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7474 outsize=7034 kw=SHADOWS_DEPTH MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7474 outsize=1030 kw=SHADOWS_DEPTH MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8286 outsize=6271 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8286 outsize=3833 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=2735 outsize=2389 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7669 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7669 outsize=4483 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4233 outsize=3906 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4233 outsize=4443 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7671 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7671 outsize=4524 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4235 outsize=3906 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4235 outsize=4223 kw= ok=1
+Cmd: preprocess
+  insize=1000 outsize=249 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1053 outsize=1550 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1053 outsize=1160 kw= ok=1
+Cmd: preprocess
+  insize=1609 outsize=1940 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15472 outsize=3939 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15472 outsize=3370 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8864 outsize=2891 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8864 outsize=2062 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7180 outsize=2289 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7180 outsize=697 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13968 outsize=3947 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13968 outsize=3224 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7906 outsize=3167 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7906 outsize=4036 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1477 outsize=830 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=949 outsize=1290 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=949 outsize=811 kw= ok=1
+Cmd: preprocess
+  insize=1650 outsize=1996 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16564 outsize=5060 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16564 outsize=4109 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10438 outsize=4004 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10438 outsize=3004 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9090 outsize=3622 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9090 outsize=1729 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14378 outsize=5019 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14378 outsize=4012 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9406 outsize=4280 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9406 outsize=4824 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  error: 2 plat 1 at (60): undefined variable "HDRtoRGBM"
+  error: 2 plat 1 at (90): undefined variable "HDRtoRGBM"
+  insize=2470 outsize=4886 ok=0
+Cmd: preprocess
+  error: 2 plat 16 at (34): Too many texture interpolators would be used for ForwardBase pass (11 out of max 10)
+  error: 2 plat 16 at (78): Too many texture interpolators would be used for ForwardBase pass (11 out of max 10)
+  insize=2808 outsize=3617 ok=0
+Cmd: preprocess
+  insize=5357 outsize=1799 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3204 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3204 outsize=1176 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3201 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3201 outsize=949 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3217 outsize=1769 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3217 outsize=1444 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3209 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3209 outsize=868 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3209 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3209 outsize=1176 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3206 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3206 outsize=949 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3218 outsize=1769 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3218 outsize=1371 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3211 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3211 outsize=786 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3203 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3203 outsize=575 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3207 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3207 outsize=778 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3202 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3202 outsize=664 kw= ok=1
+Cmd: preprocess
+  insize=3734 outsize=4318 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16684 outsize=5003 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16684 outsize=12494 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11070 outsize=4239 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=11070 outsize=10479 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9324 outsize=4288 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9324 outsize=4987 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15042 outsize=5686 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15042 outsize=11731 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16030 outsize=5361 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16030 outsize=11422 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10078 outsize=4971 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10078 outsize=12104 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  error: 2 plat 16 at (18): Surface shader vertex function 'TreeVertBark' not found
+  insize=2602 outsize=1109 ok=0
+Cmd: preprocess
+  insize=845 outsize=845 ok=1
+Cmd: preprocess
+  insize=1493 outsize=1330 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7938 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7938 outsize=2493 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4379 outsize=4166 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4379 outsize=3378 kw= ok=1
+Cmd: preprocess
+  insize=1711 outsize=2162 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15184 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15184 outsize=6449 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8398 outsize=2753 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8398 outsize=4824 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6846 outsize=2371 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6846 outsize=1282 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14242 outsize=4703 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14242 outsize=5799 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8366 outsize=3906 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8366 outsize=6076 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=3025 outsize=643 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2686 outsize=3468 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2686 outsize=1973 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1538 outsize=1860 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16194 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16194 outsize=3711 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10162 outsize=3866 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10162 outsize=2956 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8814 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8814 outsize=1680 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14102 outsize=4881 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14102 outsize=3614 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9130 outsize=4166 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9130 outsize=4426 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=13833 outsize=2059 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11195 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=11195 outsize=2176 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11186 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=11186 outsize=859 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11194 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=11194 outsize=1932 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11199 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=11199 outsize=3719 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11209 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=11209 outsize=5897 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11196 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=11196 outsize=1631 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11195 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=11195 outsize=3029 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=11201 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=11201 outsize=9293 kw= ok=1
+Cmd: preprocess
+  insize=1394 outsize=1394 ok=1
+Cmd: preprocess
+  insize=1463 outsize=504 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1260 outsize=1404 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1260 outsize=1721 kw= ok=1
+Cmd: preprocess
+  insize=1038 outsize=358 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=985 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=985 outsize=1054 kw= ok=1
+Cmd: preprocess
+  insize=1565 outsize=1895 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15298 outsize=3947 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15298 outsize=3248 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8586 outsize=2753 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8586 outsize=2013 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6902 outsize=2151 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6902 outsize=648 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13836 outsize=3955 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13836 outsize=3102 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7776 outsize=3199 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7776 outsize=3914 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=814 outsize=1312 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6953 outsize=3809 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6953 outsize=1469 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3766 outsize=2899 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3766 outsize=2103 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3199 outsize=2631 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3199 outsize=1453 kw= ok=1
+Cmd: preprocess
+  insize=2998 outsize=2660 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8064 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8064 outsize=6181 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4968 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4968 outsize=6141 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8066 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8066 outsize=6222 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4970 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4970 outsize=5921 kw= ok=1
+Cmd: preprocess
+  insize=6289 outsize=752 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5327 outsize=1875 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5327 outsize=4394 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5335 outsize=1875 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5335 outsize=3508 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5329 outsize=1875 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5329 outsize=3524 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5340 outsize=1875 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5340 outsize=2704 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5335 outsize=1875 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5335 outsize=1924 kw= ok=1
+Cmd: preprocess
+  insize=1003 outsize=1850 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6899 outsize=3663 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6899 outsize=1404 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3089 outsize=2753 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3089 outsize=1103 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5938 outsize=4077 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5938 outsize=1453 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6008 outsize=3801 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6008 outsize=1737 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3112 outsize=2484 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3112 outsize=1404 kw= ok=1
+Cmd: preprocess
+  insize=2832 outsize=782 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2099 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2099 outsize=949 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2099 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2099 outsize=1176 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2103 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2103 outsize=989 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2102 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2102 outsize=1989 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2105 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2105 outsize=973 kw= ok=1
+Cmd: preprocess
+  insize=3999 outsize=2941 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=830 outsize=1534 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=830 outsize=908 kw=SHADOWS_DEPTH ok=1
+Cmd: preprocess
+  insize=1632 outsize=2093 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15722 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15722 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9690 outsize=3866 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9690 outsize=2956 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8342 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8342 outsize=1680 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13630 outsize=4881 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13630 outsize=4093 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8658 outsize=4166 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8658 outsize=4906 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1893 outsize=2359 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15950 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15950 outsize=8245 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10086 outsize=3866 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10086 outsize=5913 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8438 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8438 outsize=2224 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14784 outsize=5312 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14784 outsize=7554 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9812 outsize=4597 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9812 outsize=7871 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=2827 outsize=2455 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8401 outsize=5060 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8401 outsize=6043 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5258 outsize=4711 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5258 outsize=6003 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8167 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8167 outsize=5645 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5071 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5071 outsize=5344 kw= ok=1
+Cmd: preprocess
+  insize=1875 outsize=895 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1282 outsize=1404 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1282 outsize=1144 kw= ok=1
+Cmd: preprocess
+  insize=11446 outsize=2624 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8607 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8607 outsize=4475 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8611 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8611 outsize=2558 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8610 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8610 outsize=892 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8614 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8614 outsize=1745 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8613 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8613 outsize=1347 kw= ok=1
+Cmd: preprocess
+  insize=1496 outsize=1804 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15100 outsize=3801 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15100 outsize=2972 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8586 outsize=2753 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8586 outsize=2013 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6902 outsize=2151 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6902 outsize=648 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13688 outsize=3809 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13688 outsize=2826 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7628 outsize=3053 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7628 outsize=3638 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=977 outsize=438 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=841 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=841 outsize=794 kw= ok=1
+Cmd: preprocess
+  insize=1646 outsize=1484 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7936 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7936 outsize=2948 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4377 outsize=4166 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4377 outsize=3858 kw= ok=1
+Cmd: preprocess
+  insize=13814 outsize=2625 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10228 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10228 outsize=1193 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10227 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10227 outsize=1631 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10227 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10227 outsize=1704 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10209 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10209 outsize=1225 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10228 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10228 outsize=1355 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10209 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10209 outsize=1623 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10254 outsize=1363 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10254 outsize=1867 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10208 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10208 outsize=526 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10212 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10212 outsize=616 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10234 outsize=2176 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10234 outsize=3281 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10228 outsize=2176 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10228 outsize=3443 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10234 outsize=2176 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10234 outsize=3281 kw= ok=1
+Cmd: preprocess
+  insize=1484 outsize=711 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at ../MarmosetVertex.cginc(73): Output value 'MarmosetVert' is not completely initialized\nCompiling Vertex program with MARMO_LINEAR
+  api=4 type=0 insize=1073 outsize=5905 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1073 outsize=2590 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=508 outsize=508 ok=1
+Cmd: preprocess
+  insize=1950 outsize=490 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1736 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1736 outsize=1615 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1749 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1749 outsize=1916 kw= ok=1
+Cmd: preprocess
+  insize=1805 outsize=885 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1222 outsize=1404 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1222 outsize=1184 kw= ok=1
+Cmd: preprocess
+  insize=617 outsize=617 ok=1
+Cmd: preprocess
+  insize=1421 outsize=505 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1218 outsize=1404 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1218 outsize=1184 kw= ok=1
+Cmd: preprocess
+  insize=4669 outsize=894 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2969 outsize=6669 kw=MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2969 outsize=2679 kw=MARMO_GAMMA ok=1
+Cmd: preprocess
+  insize=796 outsize=796 ok=1
+Cmd: preprocess
+  insize=1871 outsize=896 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1277 outsize=1404 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1277 outsize=1136 kw= ok=1
+Cmd: preprocess
+  insize=1329 outsize=1180 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7354 outsize=3801 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7354 outsize=1753 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3591 outsize=3053 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3591 outsize=2590 kw= ok=1
+Cmd: preprocess
+  insize=1804 outsize=2150 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16632 outsize=5068 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16632 outsize=7863 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10718 outsize=4012 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10718 outsize=6051 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8922 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8922 outsize=2224 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15416 outsize=5458 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15416 outsize=7173 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10444 outsize=4743 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10444 outsize=7489 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  error: 2 plat 16 at (33): Too many texture interpolators would be used for ForwardBase pass (11 out of max 10)
+  error: 2 plat 16 at (77): Too many texture interpolators would be used for ForwardBase pass (11 out of max 10)
+  insize=2854 outsize=3579 ok=0
+Cmd: preprocess
+  insize=2262 outsize=2060 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=17004 outsize=3508 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=17004 outsize=3224 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10438 outsize=2753 kw=POINT MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10438 outsize=2200 kw=POINT MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8634 outsize=2533 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8634 outsize=697 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14964 outsize=4191 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14964 outsize=2964 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15150 outsize=3508 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15150 outsize=3565 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9360 outsize=3435 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9360 outsize=3776 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=438 outsize=438 ok=1
+Cmd: preprocess
+  insize=1692 outsize=302 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1695 outsize=1753 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1695 outsize=2371 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 16 at (20): Too many texture interpolators would be used for ForwardBase pass (11 out of max 10)
+  insize=1119 outsize=2150 ok=0
+Cmd: preprocess
+  insize=27271 outsize=4693 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19248 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19248 outsize=1436 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19254 outsize=2111 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19254 outsize=3931 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19257 outsize=2111 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19257 outsize=7587 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19236 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19236 outsize=664 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19252 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19252 outsize=1428 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19239 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19239 outsize=2574 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19250 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19250 outsize=2111 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19246 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19246 outsize=843 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19256 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19256 outsize=1501 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19249 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19249 outsize=1233 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19256 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19256 outsize=1818 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19244 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (92): gradient-based operations must be moved out of flow control to prevent divergence. Performance may improve by using a non-gradient operation\nCompiling Fragment program
+  error: 1 plat 4 at (168): gradient-based operations must be moved out of flow control to prevent divergence. Performance may improve by using a non-gradient operation\nCompiling Fragment program
+  api=4 type=1 insize=19244 outsize=3102 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19253 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19253 outsize=3500 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19240 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19240 outsize=1558 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19255 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19255 outsize=1046 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19245 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19245 outsize=1404 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19238 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19238 outsize=859 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19245 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (97): gradient-based operations must be moved out of flow control to prevent divergence. Performance may improve by using a non-gradient operation\nCompiling Fragment program
+  error: 1 plat 4 at (200): gradient-based operations must be moved out of flow control to prevent divergence. Performance may improve by using a non-gradient operation\nCompiling Fragment program
+  api=4 type=1 insize=19245 outsize=3858 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19253 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19253 outsize=3760 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19263 outsize=2111 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19263 outsize=4670 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19241 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19241 outsize=778 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19243 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19243 outsize=2574 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=19261 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=19261 outsize=664 kw= ok=1
+Cmd: preprocess
+  insize=4106 outsize=553 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3754 outsize=1753 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3754 outsize=3305 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3766 outsize=1753 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3766 outsize=1794 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3757 outsize=1753 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3757 outsize=2395 kw= ok=1
+Cmd: preprocess
+  insize=2274 outsize=1208 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1310 outsize=1924 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1310 outsize=1599 kw= ok=1
+Cmd: preprocess
+  insize=1891 outsize=860 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1333 outsize=1404 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1333 outsize=1152 kw= ok=1
+Cmd: preprocess
+  insize=1737 outsize=297 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1742 outsize=1729 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1742 outsize=4629 kw= ok=1
+Cmd: preprocess
+  insize=2772 outsize=2456 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7655 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7655 outsize=4946 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4219 outsize=3906 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4219 outsize=4906 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7657 outsize=4231 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7657 outsize=4987 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4221 outsize=3906 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4221 outsize=4686 kw= ok=1
+Cmd: preprocess
+  insize=726 outsize=1695 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7038 outsize=3736 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7038 outsize=1493 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3862 outsize=2826 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3862 outsize=2127 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3228 outsize=2826 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3228 outsize=1128 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6077 outsize=4150 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6077 outsize=1542 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6147 outsize=3874 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6147 outsize=1826 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3251 outsize=2484 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3251 outsize=1493 kw= ok=1
+Cmd: preprocess
+  insize=1026 outsize=351 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=977 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=977 outsize=1298 kw= ok=1
+Cmd: preprocess
+  insize=1123 outsize=458 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=940 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=940 outsize=965 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=946 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=946 outsize=1022 kw= ok=1
+Cmd: preprocess
+  insize=738 outsize=267 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=771 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=771 outsize=835 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 16 at (33): Too many texture interpolators would be used for ForwardBase pass (11 out of max 10)
+  insize=1855 outsize=2249 ok=0
+Cmd: preprocess
+  insize=1578 outsize=2036 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14586 outsize=3801 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14586 outsize=3492 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8072 outsize=2753 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8072 outsize=2013 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6388 outsize=2151 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6388 outsize=648 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13174 outsize=3809 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13174 outsize=3305 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7114 outsize=3053 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7114 outsize=4118 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=5837 outsize=873 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4927 outsize=1574 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4927 outsize=2151 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4929 outsize=1574 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4929 outsize=1656 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4933 outsize=1574 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4933 outsize=1818 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4942 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4942 outsize=1054 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4923 outsize=1574 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4923 outsize=2151 kw= ok=1
+Cmd: preprocess
+  insize=5633 outsize=757 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4670 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4670 outsize=1201 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4674 outsize=2151 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4674 outsize=1851 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4684 outsize=2159 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4684 outsize=2753 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4679 outsize=2159 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4679 outsize=2419 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4685 outsize=1753 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4685 outsize=2371 kw= ok=1
+Cmd: preprocess
+  insize=586 outsize=360 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=528 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=528 outsize=1274 kw= ok=1
+Cmd: preprocess
+  insize=7257 outsize=922 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5673 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5673 outsize=811 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5672 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5672 outsize=908 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5666 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5666 outsize=2639 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5665 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5665 outsize=2793 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5668 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5668 outsize=2907 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5667 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5667 outsize=2964 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5669 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5669 outsize=1014 kw= ok=1
+Cmd: preprocess
+  insize=32646 outsize=272 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=32675 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=32675 outsize=10699 kw= ok=1
+Cmd: preprocess
+  insize=556 outsize=556 ok=1
+Cmd: preprocess
+  insize=5149 outsize=1741 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3712 outsize=1769 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3712 outsize=6961 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 16 at (19): Too many texture interpolators would be used for ForwardBase pass (11 out of max 10)
+  insize=853 outsize=1874 ok=0
+Cmd: preprocess
+  insize=1893 outsize=2219 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16688 outsize=5068 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16688 outsize=8042 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10626 outsize=3866 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10626 outsize=5913 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8978 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8978 outsize=2224 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15472 outsize=5458 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15472 outsize=7351 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10500 outsize=4743 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10500 outsize=7668 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=807 outsize=1865 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6910 outsize=3663 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6910 outsize=1493 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3734 outsize=2753 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3734 outsize=2127 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3100 outsize=2753 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3100 outsize=1128 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5949 outsize=4077 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5949 outsize=1542 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6019 outsize=3801 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6019 outsize=1826 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3123 outsize=2484 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3123 outsize=1493 kw= ok=1
+Cmd: preprocess
+  insize=2693 outsize=3310 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15568 outsize=3833 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15568 outsize=5604 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9166 outsize=3078 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9166 outsize=4556 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13858 outsize=4589 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13858 outsize=4109 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7084 outsize=4524 kw=SHADOWS_DEPTH MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7084 outsize=575 kw=SHADOWS_DEPTH MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7816 outsize=2809 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7816 outsize=4873 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=6801 outsize=255 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6848 outsize=1396 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6848 outsize=4434 kw= ok=1
+Cmd: preprocess
+  insize=1585 outsize=1934 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8251 outsize=5068 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8251 outsize=2769 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5142 outsize=3866 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5142 outsize=2801 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4435 outsize=3484 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4435 outsize=1526 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7183 outsize=5028 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7183 outsize=2842 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4667 outsize=4313 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4667 outsize=3654 kw= ok=1
+Cmd: preprocess
+  insize=4528 outsize=555 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4182 outsize=2216 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4182 outsize=7043 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4186 outsize=2216 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4186 outsize=6108 kw= ok=1
+Cmd: preprocess
+  insize=2915 outsize=3575 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8407 outsize=5068 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8407 outsize=5921 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5382 outsize=3866 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5382 outsize=5190 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4525 outsize=3484 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4525 outsize=2070 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7802 outsize=5458 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7802 outsize=5564 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5286 outsize=4743 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5286 outsize=5881 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8409 outsize=5068 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8409 outsize=5962 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5384 outsize=3866 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5384 outsize=5190 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4527 outsize=3484 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4527 outsize=2070 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7804 outsize=5458 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7804 outsize=5604 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5288 outsize=4743 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5288 outsize=5661 kw= ok=1
+Cmd: preprocess
+  insize=2291 outsize=2291 ok=1
+Cmd: preprocess
+  insize=1704 outsize=2859 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14767 outsize=6124 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14767 outsize=2899 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8239 outsize=5214 kw=POINT MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8239 outsize=2314 kw=POINT MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6945 outsize=5214 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6945 outsize=1201 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=12931 outsize=6709 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=12931 outsize=3021 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=12869 outsize=6263 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=12869 outsize=3232 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6521 outsize=6661 kw=SHADOWS_DEPTH MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6521 outsize=1030 kw=SHADOWS_DEPTH MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7333 outsize=5897 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7333 outsize=3833 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1317 outsize=507 ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at ../MarmosetVertex.cginc(73): Output value 'MarmosetVert' is not completely initialized\nCompiling Vertex program with MARMO_LINEAR
+  api=4 type=0 insize=1112 outsize=4800 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1112 outsize=1696 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=2653 outsize=2280 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8081 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8081 outsize=4589 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4985 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4985 outsize=5434 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8083 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8083 outsize=4369 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4987 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4987 outsize=5214 kw= ok=1
+Cmd: preprocess
+  insize=435 outsize=435 ok=1
+Cmd: preprocess
+  insize=4848 outsize=1016 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3817 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3817 outsize=1217 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3824 outsize=1249 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3824 outsize=1201 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3822 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3822 outsize=1688 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3824 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3824 outsize=1989 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3814 outsize=1314 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3814 outsize=989 kw= ok=1
+Cmd: preprocess
+  insize=2300 outsize=1389 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1123 outsize=4215 kw=MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1123 outsize=1566 kw=MARMO_GAMMA ok=1
+Cmd: preprocess
+  insize=1539 outsize=1886 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16390 outsize=5068 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16390 outsize=3849 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10308 outsize=4012 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10308 outsize=3094 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8812 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8812 outsize=1680 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14248 outsize=5028 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14248 outsize=3752 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9276 outsize=4313 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9276 outsize=4564 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=5752 outsize=1269 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4241 outsize=1444 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4241 outsize=3208 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (72): Output value 'vertApply' is not completely initialized\nCompiling Vertex program
+  api=4 type=0 insize=3327 outsize=1201 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3327 outsize=1672 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=4 insize=3327 outsize=3606 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (72): Output value 'vertApply' is not completely initialized\nCompiling Vertex program
+  api=4 type=0 insize=3327 outsize=1201 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3327 outsize=1672 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=4 insize=3327 outsize=3606 kw= ok=1
+Cmd: preprocess
+  insize=2889 outsize=2421 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8449 outsize=5060 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8449 outsize=5028 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5306 outsize=4711 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5306 outsize=5873 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8215 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8215 outsize=4369 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5119 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5119 outsize=5214 kw= ok=1
+Cmd: preprocess
+  insize=1861 outsize=2211 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15828 outsize=4378 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15828 outsize=6531 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8992 outsize=2899 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8992 outsize=4906 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7292 outsize=2371 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7292 outsize=1282 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14836 outsize=4849 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14836 outsize=5881 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8960 outsize=4053 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8960 outsize=6157 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=778 outsize=304 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=776 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=776 outsize=673 kw= ok=1
+Cmd: preprocess
+  insize=1440 outsize=326 ok=1
+Cmd: preprocess
+  insize=2824 outsize=2518 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8048 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8048 outsize=6124 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4952 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4952 outsize=6084 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8050 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8050 outsize=6165 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4954 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4954 outsize=5864 kw= ok=1
+Cmd: preprocess
+  insize=959 outsize=1919 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7390 outsize=4898 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7390 outsize=2233 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4814 outsize=3979 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4814 outsize=2915 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4196 outsize=4028 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4196 outsize=1867 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6398 outsize=4077 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6398 outsize=1542 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7240 outsize=5036 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7240 outsize=2566 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4042 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4042 outsize=1591 kw= ok=1
+Cmd: preprocess
+  insize=359 outsize=359 ok=1
+Cmd: preprocess
+  insize=1525 outsize=1873 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8254 outsize=5068 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8254 outsize=2631 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5219 outsize=4012 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5219 outsize=2939 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4438 outsize=3484 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4438 outsize=1526 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7186 outsize=5028 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7186 outsize=2704 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4670 outsize=4313 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4670 outsize=3516 kw= ok=1
+Cmd: preprocess
+  insize=3918 outsize=651 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3312 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3312 outsize=1274 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3319 outsize=2151 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3319 outsize=1851 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3328 outsize=2135 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3328 outsize=2208 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3323 outsize=2135 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3323 outsize=2419 kw= ok=1
+Cmd: preprocess
+  insize=2832 outsize=1564 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1014 outsize=4987 kw=MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1014 outsize=1453 kw=MARMO_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=840 outsize=2094 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=840 outsize=453 kw=SHADOWS_DEPTH ok=1
+Cmd: preprocess
+  insize=873 outsize=301 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=877 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=877 outsize=1103 kw= ok=1
+Cmd: preprocess
+  insize=1513 outsize=859 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=956 outsize=1290 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=956 outsize=770 kw= ok=1
+Cmd: preprocess
+  insize=1339 outsize=296 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1347 outsize=1574 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1347 outsize=1956 kw= ok=1
+Cmd: preprocess
+  insize=2143 outsize=982 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=905 outsize=1087 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=905 outsize=754 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=860 outsize=1087 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=860 outsize=616 kw= ok=1
+Cmd: preprocess
+  insize=1138 outsize=1885 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7379 outsize=4898 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7379 outsize=2143 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4185 outsize=4028 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4185 outsize=1843 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6387 outsize=4077 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6387 outsize=1453 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7229 outsize=5036 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7229 outsize=2476 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4031 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4031 outsize=1501 kw= ok=1
+Cmd: preprocess
+  insize=1796 outsize=2259 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=16086 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=16086 outsize=7985 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10196 outsize=3866 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10196 outsize=6092 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8628 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8628 outsize=2533 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14920 outsize=5312 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14920 outsize=7213 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10002 outsize=4597 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10002 outsize=7465 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1477 outsize=1935 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14718 outsize=3801 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14718 outsize=3232 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8178 outsize=2753 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8178 outsize=2192 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6910 outsize=2371 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6910 outsize=1079 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13306 outsize=3809 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13306 outsize=3004 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7300 outsize=3053 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7300 outsize=3817 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1524 outsize=883 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=942 outsize=1209 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=942 outsize=770 kw= ok=1
+Cmd: preprocess
+  insize=1979 outsize=2433 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15974 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15974 outsize=8302 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=10110 outsize=3866 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=10110 outsize=5970 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8462 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8462 outsize=2224 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=14808 outsize=5312 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=14808 outsize=7611 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9836 outsize=4597 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9836 outsize=7928 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=5314 outsize=775 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4700 outsize=1014 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4700 outsize=1964 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4705 outsize=1014 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4705 outsize=1696 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4715 outsize=1014 kw= ok=1
+Cmd: compileSnippet
+  error: 1 plat 4 at (151): integer modulus may be much slower, try using uints if possible.\nCompiling Fragment program
+  api=4 type=1 insize=4715 outsize=6466 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 16 at (27): Surface shader vertex function 'TreeVertLeaf' not found
+  insize=6397 outsize=2429 ok=0
+Cmd: preprocess
+  insize=2813 outsize=3510 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8373 outsize=5068 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8373 outsize=5743 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5422 outsize=4012 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5422 outsize=5328 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4491 outsize=3484 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4491 outsize=2070 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7768 outsize=5458 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7768 outsize=5385 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5252 outsize=4743 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5252 outsize=5702 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8375 outsize=5068 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8375 outsize=5783 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5424 outsize=4012 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5424 outsize=5328 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4493 outsize=3484 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4493 outsize=2070 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7770 outsize=5458 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7770 outsize=5426 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5254 outsize=4743 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5254 outsize=5483 kw= ok=1
+Cmd: preprocess
+  insize=1525 outsize=597 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1230 outsize=981 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1230 outsize=1022 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1242 outsize=493 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1051 outsize=1209 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1051 outsize=1379 kw= ok=1
+Cmd: preprocess
+  insize=1080 outsize=489 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=893 outsize=1144 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=893 outsize=1038 kw= ok=1
+Cmd: preprocess
+  insize=1213 outsize=389 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1129 outsize=1249 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1129 outsize=1201 kw= ok=1
+Cmd: preprocess
+  insize=1492 outsize=1950 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=15726 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=15726 outsize=3711 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9694 outsize=3866 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9694 outsize=2956 kw=POINT SHADOWS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8346 outsize=3484 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8346 outsize=1680 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=13634 outsize=4881 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=13634 outsize=3614 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8662 outsize=4166 kw=MARMO_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8662 outsize=4426 kw=MARMO_LINEAR ok=1
+Cmd: preprocess
+  insize=1394 outsize=1249 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7920 outsize=4922 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7920 outsize=2493 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4361 outsize=4166 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4361 outsize=3378 kw= ok=1
+Cmd: preprocess
+  insize=574 outsize=259 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=617 outsize=843 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=617 outsize=453 kw= ok=1
+Cmd: preprocess
+  insize=724 outsize=315 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=714 outsize=1006 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=714 outsize=729 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 1 at (96): undefined variable "HDRtoRGBM"
+  error: 2 plat 1 at (135): undefined variable "HDRtoRGBM"
+  error: 1 plat 1 at /../Terrain/MarmosetTerrain.cginc(69): implicit cast from "float4" to "float2"
+  error: 1 plat 1 at /../Terrain/MarmosetTerrain.cginc(81): implicit cast from "float3" to "float2"
+  insize=4732 outsize=6815 ok=0
+Cmd: preprocess
+  insize=1601 outsize=1934 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7715 outsize=3947 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7715 outsize=1891 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4439 outsize=2899 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4439 outsize=2151 kw=POINT SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3490 outsize=2151 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3490 outsize=648 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6987 outsize=3955 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6987 outsize=1916 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3927 outsize=3199 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3927 outsize=2728 kw= ok=1
+Cmd: preprocess
+  insize=1668 outsize=929 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1041 outsize=1290 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1041 outsize=1006 kw= ok=1
+Cmd: preprocess
+  insize=5281 outsize=888 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4431 outsize=1599 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4431 outsize=1323 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4435 outsize=1412 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4435 outsize=1534 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4436 outsize=1412 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4436 outsize=1534 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4440 outsize=1769 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4440 outsize=1802 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4441 outsize=1769 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4441 outsize=1802 kw= ok=1
+Cmd: preprocess
+  insize=756 outsize=1303 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6780 outsize=3663 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6780 outsize=1314 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3618 outsize=2753 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3618 outsize=1948 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3051 outsize=2484 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3051 outsize=1314 kw= ok=1
+Cmd: preprocess
+  insize=1727 outsize=682 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1346 outsize=1542 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1346 outsize=1258 kw= ok=1
+Cmd: preprocess
+  error: 2 plat 16 at (21): Surface shader vertex function 'TreeVertBark' not found
+  insize=2638 outsize=909 ok=0
+Cmd: preprocess
+  insize=908 outsize=1357 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7260 outsize=4898 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7260 outsize=2054 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4698 outsize=3979 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4698 outsize=2736 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3970 outsize=4597 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3970 outsize=1412 kw= ok=1
+Cmd: preprocess
+  insize=1595 outsize=1389 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=8288 outsize=5060 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=8288 outsize=2891 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4682 outsize=4280 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4682 outsize=3776 kw= ok=1
+Cmd: preprocess
+  insize=834 outsize=834 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1705 outsize=1290 kw=SOFTPARTICLES_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1705 outsize=924 kw=SOFTPARTICLES_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=541 outsize=3533 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=541 outsize=453 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6810 outsize=3663 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6810 outsize=1314 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3647 outsize=2753 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3647 outsize=1168 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=577 outsize=3533 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=577 outsize=453 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6800 outsize=3663 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6800 outsize=1249 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7990 outsize=4719 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7990 outsize=4012 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5181 outsize=3955 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5181 outsize=2907 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7075 outsize=3752 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7075 outsize=1518 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3755 outsize=2753 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3755 outsize=1168 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=990 outsize=1087 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=990 outsize=713 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7257 outsize=4873 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7257 outsize=2054 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4694 outsize=3955 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4694 outsize=1956 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1642 outsize=1290 kw=SOFTPARTICLES_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1642 outsize=924 kw=SOFTPARTICLES_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=797 outsize=3776 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=797 outsize=908 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3862 outsize=2826 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3862 outsize=1347 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6862 outsize=3663 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6862 outsize=1493 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3686 outsize=2753 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3686 outsize=1347 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=959 outsize=1087 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=959 outsize=616 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=7458 outsize=4093 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=7458 outsize=2639 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4021 outsize=2753 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4021 outsize=2151 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=751 outsize=3533 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=751 outsize=380 kw=SHADOWS_DEPTH ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=982 outsize=3979 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=982 outsize=10561 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=938 outsize=4036 kw=DIRECTIONAL SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=938 outsize=5515 kw=DIRECTIONAL SHADOWS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6731 outsize=3663 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=6731 outsize=1314 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3569 outsize=2753 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3569 outsize=1168 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=9591 outsize=10358 kw=UNITY_COLORSPACE_GAMMA ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=9591 outsize=2639 kw=UNITY_COLORSPACE_GAMMA ok=1

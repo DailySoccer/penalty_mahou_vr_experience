@@ -1,0 +1,108 @@
+fileFormatVersion: 2
+guid: d9cc24e9c74919448963c37ec6b4bc22
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Bernabeu_Fuera
+    100002: Bernabeu_Fuera_MeshPart0
+    100004: Bernabeu_Fuera_MeshPart1
+    100006: //RootNode
+    100008: Castellana_C
+    100010: Castellana_Izq
+    100012: Suelo_Castellana
+    100014: Exterior_Root
+    100016: Proxis
+    100018: Proxis001
+    100020: Iglesia
+    400000: Bernabeu_Fuera
+    400002: Bernabeu_Fuera_MeshPart0
+    400004: Bernabeu_Fuera_MeshPart1
+    400006: //RootNode
+    400008: Castellana_C
+    400010: Castellana_Izq
+    400012: Suelo_Castellana
+    400014: Exterior_Root
+    400016: Proxis
+    400018: Proxis001
+    400020: Iglesia
+    2300000: Bernabeu_Fuera_MeshPart0
+    2300002: Bernabeu_Fuera_MeshPart1
+    2300004: Castellana_C
+    2300006: Castellana_Izq
+    2300008: Suelo_Castellana
+    2300010: Bernabeu_Fuera
+    2300012: Proxis
+    2300014: Proxis001
+    2300016: Iglesia
+    3300000: Bernabeu_Fuera_MeshPart0
+    3300002: Bernabeu_Fuera_MeshPart1
+    3300004: Castellana_C
+    3300006: Castellana_Izq
+    3300008: Suelo_Castellana
+    3300010: Bernabeu_Fuera
+    3300012: Proxis
+    3300014: Proxis001
+    3300016: Iglesia
+    4300000: Bernabeu_Fuera_MeshPart0
+    4300002: Bernabeu_Fuera_MeshPart1
+    4300004: Castellana_C
+    4300006: Castellana_Izq
+    4300008: Suelo_Castellana
+    4300010: Bernabeu_Fuera
+    4300012: Proxis
+    4300014: Proxis001
+    4300016: Iglesia
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 0
+  userData: 

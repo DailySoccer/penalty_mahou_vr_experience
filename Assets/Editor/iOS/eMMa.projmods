@@ -1,0 +1,29 @@
+{
+  "group": "eMMa",
+  "patches": [],
+  "libs": [
+  "Libz.dylib"
+  ],
+  "librarysearchpaths": [
+  ],
+  "frameworks": [
+    "MobileCoreServices.framework",
+    "CFNetwork.framework",
+    "CoreGraphics.framework",
+    "SystemConfiguration.framework",
+    "CoreLocation.framework",
+    "AdSupport.framework",
+    "CoreTelephony.framework"
+  ],
+  "headerpaths": [
+  ],
+  "files": [
+    "Editor/iOS/Ad4ScreenController.h",
+    "Editor/iOS/Ad4ScreenController.m",
+    "Editor/iOS/main.mm"
+  ],
+  "folders": [
+   
+  ],	
+  "excludes": ["^.*\\.meta$", "^.*\\.mdown^", "^.*\\.pdf$"]
+}

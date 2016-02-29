@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.ad4screen.sdk.service.modules.inapp.DisplayView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/com_ad4screen_banner"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+ </com.ad4screen.sdk.service.modules.inapp.DisplayView>
+

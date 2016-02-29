@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Window">
+        <attr name="com_ad4screen_sdk_windowWidthMajor" format="dimension|fraction" />
+        <attr name="com_ad4screen_sdk_windowWidthMinor" format="dimension|fraction" />
+    </declare-styleable>
+
+</resources>

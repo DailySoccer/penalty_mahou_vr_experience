@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="com_ad4screen_sdk_actionbar_icon_size">48dp</dimen>
+    <dimen name="com_ad4screen_sdk_actionbar_size">48dp</dimen>
+    
+    <item name="com_ad4screen_sdk_dialog_width_major" type="dimen">65%</item>
+    <item name="com_ad4screen_sdk_dialog_width_minor" type="dimen">95%</item>
+</resources>
