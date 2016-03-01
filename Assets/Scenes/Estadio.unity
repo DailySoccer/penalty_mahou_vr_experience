@@ -6659,8 +6659,9 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 467814019}
+  - 114: {fileID: 467814020}
   m_Layer: 0
-  m_Name: CameraReference
+  m_Name: PlayerReference
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6679,6 +6680,20 @@ Transform:
   - {fileID: 769188291}
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!114 &467814020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 467814018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6bd687b48079ba4dbb5e00ecf27782d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CameraRef: {fileID: 2059995067}
+  CrosshairGraphicPref: {fileID: 0}
+  CROSSHAIR_DISTANCE: 1.75
 --- !u!1 &499799031
 GameObject:
   m_ObjectHideFlags: 0
@@ -29697,6 +29712,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1226999234}
   m_RootOrder: 0
+--- !u!20 &2059995067 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 2037080, guid: 126d619cf4daa52469682f85c1378b4a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1210786893}
 --- !u!1 &2102311478
 GameObject:
   m_ObjectHideFlags: 0
