@@ -15,10 +15,11 @@ public class CrosshairHUD : MonoBehaviour
    /// <summary>
    /// Graphic used as crosshair.
    /// </summary>
-   public Image CrosshairGraphicPref;
+   public SightPointer CrosshairGraphicPref;
    /// <summary>
    /// Distance where the crosshair will be placed in front of the camera.
    /// </summary>
+   [Range(0.5f, 20f)]
    public float CROSSHAIR_DISTANCE = 1.75f;
    #endregion  //End public members
 
@@ -42,16 +43,18 @@ public class CrosshairHUD : MonoBehaviour
       _initiated = CameraRef != null && CrosshairGraphicPref != null;
       if (_initiated)
       {
-         CrosshairGraphicPref.transform.SetParent(CameraRef.transform);
-         CrosshairGraphicPref.transform.localPosition = new Vector3(0, 0, CROSSHAIR_DISTANCE);
-         CrosshairGraphicPref.transform.localRotation = Quaternion.identity;
+         SightPointer auxRef = GameObject.Instantiate<SightPointer>(CrosshairGraphicPref);
+         auxRef.Init();
+         _crosshairRef = auxRef.gameObject;
+         _crosshairRef.transform.SetParent(CameraRef.transform);
+         _crosshairRef.transform.localPosition = new Vector3(0, 0, CROSSHAIR_DISTANCE);
+         _crosshairRef.transform.localRotation = Quaternion.identity;
       }
       else
       {
-         Debug.Log("<color=s#FFA500ff>CrosshairHUD.cs - Warning: Initial parameters undefined." + (CameraRef == null ? " Camera reference missing." : string.Empty) +
-                   (CrosshairGraphicPref == null ? " Crosshair image reference missing." : string.Empty) + " </color>");
+         Debug.Log("<color=#FFA500FF>CrosshairHUD.cs - Warning: Initial parameters undefined." + (CameraRef == null ? " Camera reference missing." : string.Empty) +
+                   (_crosshairRef == null ? " Crosshair \'SightPointer\' object reference missing." : string.Empty) + " </color>");
       }
-
    }
 
    #endregion  //End monobehaviour methods
@@ -67,5 +70,6 @@ public class CrosshairHUD : MonoBehaviour
    //-----------------------------------------------------------//
    #region Private members
    private bool _initiated;
+   private GameObject _crosshairRef;
    #endregion  //End private members
 }
