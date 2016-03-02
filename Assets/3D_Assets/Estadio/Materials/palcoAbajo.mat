@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: palco
+  m_Name: palcoAbajo
   m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -19,9 +19,9 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 4a3527d3717f9ec4fb2623e0389c60d0, type: 3}
-          m_Scale: {x: .5, y: .800000012}
-          m_Offset: {x: 0, y: 0}
+          m_Texture: {fileID: 2800000, guid: 824b1e4b0c133f94780ccf2f1a12af33, type: 3}
+          m_Scale: {x: .0299999993, y: 1}
+          m_Offset: {x: .5, y: 0}
     m_Floats:
       data:
         first:
@@ -47,4 +47,4 @@ Material:
       data:
         first:
           name: _TintColor
-        second: {r: .330882341, g: .45461458, b: .625, a: .465999991}
+        second: {r: .536764741, g: .536764741, b: .536764741, a: .465999991}

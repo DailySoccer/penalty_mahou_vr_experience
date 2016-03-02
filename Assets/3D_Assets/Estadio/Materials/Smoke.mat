@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: palco
+  m_Name: Smoke
   m_Shader: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -19,8 +19,8 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 4a3527d3717f9ec4fb2623e0389c60d0, type: 3}
-          m_Scale: {x: .5, y: .800000012}
+          m_Texture: {fileID: 2800000, guid: 587459dca8d78b1409cc7298ccbd30da, type: 3}
+          m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
@@ -47,4 +47,4 @@ Material:
       data:
         first:
           name: _TintColor
-        second: {r: .330882341, g: .45461458, b: .625, a: .465999991}
+        second: {r: .0808823705, g: .07315097, b: .07315097, a: .465999991}
