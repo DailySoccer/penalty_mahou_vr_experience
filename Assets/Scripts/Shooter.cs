@@ -8,6 +8,11 @@ public class Shooter : MonoBehaviour
    //                      PUBLIC MEMBERS                       //
    //-----------------------------------------------------------//
    #region Public members
+   public bool AbleToShoot = false;
+   /// <summary>
+   /// AudioSource ball kick origin.
+   /// </summary>
+   public AudioSource BallKick;
    /// <summary>
    /// Ball to be hit.
    /// </summary>
@@ -36,22 +41,9 @@ public class Shooter : MonoBehaviour
    //                      PUBLIC METHODS                       //
    //-----------------------------------------------------------//
    #region Public methods
-   public void Shoot(Vector3 targetPosition)
+   public void Shoot()
    {
-      if (_initiated)
-      {
-         Vector3 maxEnergyDir = (targetPosition - Ball.transform.position).normalized;
-         maxEnergyDir += Vector3.up * 0.3f * maxEnergyDir.y;
-         //TODO improve ecuation later, by now just trying with different values.
-         /*
-         float angleMax = Mathf.Asin(maxEnergyDir.y);
-         float shootAngle = Random.Range(angleMax, Mathf.PI * 0.25f);
-         */
-         float errorAngle = Random.Range(-ErrorDeviation, ErrorDeviation);
-         maxEnergyDir = Quaternion.AngleAxis(errorAngle, Vector3.up) * maxEnergyDir;
-         float errorApplied = 1 + Random.Range(-ErrorForcePer, ErrorForcePer);
-         Ball.AddForce(maxEnergyDir * Force * errorApplied, ForceMode.Impulse);
-      }
+      Shoot(Raycast.RaycastPoint());
    }
 
    public void Respawn()
@@ -74,7 +66,7 @@ public class Shooter : MonoBehaviour
    /// </summary>
    void Start()
    {
-      _initiated = Ball != null && Raycast != null;
+      _initiated = Ball != null && Raycast != null && BallKick != null;
       if (_initiated)
       {
          _respawnPoint = Ball.transform.position;
@@ -82,7 +74,9 @@ public class Shooter : MonoBehaviour
       else
       {
          Debug.Log("<color=#FFA500FF>CrosshairHUD.cs - Warning: Initial parameters undefined." + (Ball == null ? " Rigidbody reference missing." : string.Empty) +
-                   (Raycast == null ? " Raycast \'Raycaster\' object reference missing." : string.Empty) + " </color>");
+                   (Raycast == null ? " Raycast \'Raycaster\' object reference missing." : string.Empty) +
+                   (BallKick == null ? " Sound effect reference missing." : string.Empty) +
+                   " </color>");
       }
    }
 
@@ -91,14 +85,10 @@ public class Shooter : MonoBehaviour
    {
       if (_initiated)
       {
-         if (Input.GetKeyDown(KeyCode.Space))
-         {
-            Shoot(Raycast.RaycastPoint());
-         }
-         if (Input.GetKeyDown(KeyCode.RightShift))
+         /*if (Input.GetKeyDown(KeyCode.RightShift))
          {
             Respawn();
-         }
+         }*/
       }
    }
    #endregion  //End monobehaviour methods
@@ -107,6 +97,27 @@ public class Shooter : MonoBehaviour
    //                      PRIVATE METHODS                      //
    //-----------------------------------------------------------//
    #region Private methods
+   private void Shoot(Vector3 targetPosition)
+   {
+      if (_initiated)
+      {
+         if (AbleToShoot)
+         {
+            BallKick.Play();
+            Vector3 maxEnergyDir = (targetPosition - Ball.transform.position).normalized;
+            maxEnergyDir += Vector3.up * 0.3f * maxEnergyDir.y;
+            //TODO improve ecuation later, by now just trying with different values.
+            /*
+            float angleMax = Mathf.Asin(maxEnergyDir.y);
+            float shootAngle = Random.Range(angleMax, Mathf.PI * 0.25f);
+            */
+            float errorAngle = Random.Range(-ErrorDeviation, ErrorDeviation);
+            maxEnergyDir = Quaternion.AngleAxis(errorAngle, Vector3.up) * maxEnergyDir;
+            float errorApplied = 1 + Random.Range(-ErrorForcePer, ErrorForcePer);
+            Ball.AddForce(maxEnergyDir * Force * errorApplied, ForceMode.Impulse);
+         }
+      }
+   }
    #endregion  //End private methods
 
    //-----------------------------------------------------------//

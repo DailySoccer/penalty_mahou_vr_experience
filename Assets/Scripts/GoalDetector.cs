@@ -65,7 +65,7 @@ public class GoalDetector : MonoBehaviour
             }
          }
          _state = MotionState.Quiet;
-         Debug.Log("<color=green>Collision with " + other.transform.name + "</color>");
+         //Debug.Log("<color=green>Collision with " + other.transform.name + "</color>");
       }
    }
 
@@ -98,8 +98,7 @@ public class GoalDetector : MonoBehaviour
       Quiet,
       Moving
    };
-
-   private bool _initiated;
+   
    private MotionState _state;
    private float ZERO_PRECISSION = 0.05f;
    private Rigidbody _myRigidbody;
