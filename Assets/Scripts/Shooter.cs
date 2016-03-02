@@ -12,17 +12,54 @@ public class Shooter : MonoBehaviour
    /// Ball to be hit.
    /// </summary>
    public Rigidbody Ball;
+   /// <summary>
+   /// Special raycaster to detect shoot direction.
+   /// </summary>
+   public Raytracer Raycast;
+   /// <summary>
+   /// Force to be applied to shoot.
+   /// </summary>
+   public float Force = 5;
+   /// <summary>
+   /// Percentage error to vary the final force applied.
+   /// </summary>
+   [Range(0.01f,0.2f)]
+   public float ErrorForcePer = 0.1f;
+   /// <summary>
+   /// Angle to deviate the shoot trajectory horizontally.
+   /// </summary>
+   [Range(0,10)]
+   public float ErrorDeviation = 0.1f;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
    //                      PUBLIC METHODS                       //
    //-----------------------------------------------------------//
    #region Public methods
-   public void Shoot(Vector3 shootVector)
+   public void Shoot(Vector3 targetPosition)
    {
       if (_initiated)
       {
-         Ball.AddForce(shootVector, ForceMode.Impulse);
+         Vector3 maxEnergyDir = (targetPosition - Ball.transform.position).normalized;
+         maxEnergyDir += Vector3.up * 0.3f * maxEnergyDir.y;
+         //TODO improve ecuation later, by now just trying with different values.
+         /*
+         float angleMax = Mathf.Asin(maxEnergyDir.y);
+         float shootAngle = Random.Range(angleMax, Mathf.PI * 0.25f);
+         */
+         float errorAngle = Random.Range(-ErrorDeviation, ErrorDeviation);
+         maxEnergyDir = Quaternion.AngleAxis(errorAngle, Vector3.up) * maxEnergyDir;
+         float errorApplied = 1 + Random.Range(-ErrorForcePer, ErrorForcePer);
+         Ball.AddForce(maxEnergyDir * Force * errorApplied, ForceMode.Impulse);
+      }
+   }
+
+   public void Respawn()
+   {
+      if (_initiated)
+      {
+         Ball.velocity = Ball.angularVelocity = Vector3.zero;
+         Ball.transform.position = _respawnPoint;
       }
    }
    #endregion  //End public methods
@@ -37,20 +74,31 @@ public class Shooter : MonoBehaviour
    /// </summary>
    void Start()
    {
-      _initiated = Ball != null;
-      if (!_initiated)
+      _initiated = Ball != null && Raycast != null;
+      if (_initiated)
+      {
+         _respawnPoint = Ball.transform.position;
+      }
+      else
       {
          Debug.Log("<color=#FFA500FF>CrosshairHUD.cs - Warning: Initial parameters undefined." + (Ball == null ? " Rigidbody reference missing." : string.Empty) +
-                   " </color>");
+                   (Raycast == null ? " Raycast \'Raycaster\' object reference missing." : string.Empty) + " </color>");
       }
    }
 
-   //TODO erase this
+   //TODO remove this
    void Update()
    {
-      if (_initiated && Input.GetKeyDown(KeyCode.Space))
+      if (_initiated)
       {
-         Shoot(new Vector3(-9, 3, 0.1f));
+         if (Input.GetKeyDown(KeyCode.Space))
+         {
+            Shoot(Raycast.RaycastPoint());
+         }
+         if (Input.GetKeyDown(KeyCode.RightShift))
+         {
+            Respawn();
+         }
       }
    }
    #endregion  //End monobehaviour methods
@@ -66,5 +114,6 @@ public class Shooter : MonoBehaviour
    //-----------------------------------------------------------//
    #region Private members
    private bool _initiated;
+   private Vector3 _respawnPoint = Vector3.zero;
    #endregion  //End private members
 }

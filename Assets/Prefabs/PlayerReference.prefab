@@ -310,6 +310,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Ball: {fileID: 0}
+  Raycast: {fileID: 0}
+  Force: 13
+  ErrorForcePer: .100000001
+  ErrorDeviation: 5
 --- !u!114 &11410988
 MonoBehaviour:
   m_ObjectHideFlags: 1
