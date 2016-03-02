@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 436714}
   - 114: {fileID: 11483174}
+  - 114: {fileID: 11402034}
   m_Layer: 0
   m_Name: PlayerReference
   m_TagString: Untagged
@@ -297,6 +298,18 @@ AudioListener:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 158472}
   m_Enabled: 1
+--- !u!114 &11402034
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 198592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 309a8f636fd578f40b27334538c25dbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Ball: {fileID: 0}
 --- !u!114 &11410988
 MonoBehaviour:
   m_ObjectHideFlags: 1
