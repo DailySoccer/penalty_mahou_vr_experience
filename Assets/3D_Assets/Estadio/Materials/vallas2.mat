@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: vallas
+  m_Name: vallas2
   m_Shader: {fileID: 10703, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -19,7 +19,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 5415363970f8a774ab1a5e80b62f766b, type: 3}
+          m_Texture: {fileID: 2800000, guid: 07cfa40495cc113489915201703e309b, type: 3}
           m_Scale: {x: .600000024, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats: {}
