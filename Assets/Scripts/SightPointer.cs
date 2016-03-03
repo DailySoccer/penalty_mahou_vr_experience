@@ -41,6 +41,7 @@ public class SightPointer : MonoBehaviour
          _innerImage = auxRefInner.AddComponent<SpriteRenderer>();
          _outerImage.sprite = Outer;
          _innerImage.sprite = Inner;
+         _outerImage.sortingOrder = _innerImage.sortingOrder = 20;
          _imageHolder.SetParent(transform);
          auxRefOuter.transform.SetParent(_imageHolder);
          auxRefInner.transform.SetParent(_imageHolder);

@@ -113,7 +113,7 @@ MonoBehaviour:
   ShooterReference: {fileID: 0}
   Whistle: {fileID: 8300000, guid: 794d2118e02e4614189ecf2f899ad665, type: 3}
   WAIT_TIME: 40
-  FIRST_WHISTLE: 10
+  FIRST_WHISTLE: 15
   WAIT_ANIMATION: 5
 --- !u!1001 &100100000
 Prefab:
