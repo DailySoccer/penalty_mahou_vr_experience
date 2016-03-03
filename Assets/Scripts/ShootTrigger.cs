@@ -9,6 +9,7 @@ public class ShootTrigger : MonoBehaviour
    //-----------------------------------------------------------//
    #region Public members
    public Shooter ShooterPlayer;
+   public Animator GoalKeeper;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
@@ -18,6 +19,32 @@ public class ShootTrigger : MonoBehaviour
    public void TriggerShoot()
    {
       ShooterPlayer.Shoot();
+   }
+
+   public void GoalKeeperJump()
+   {
+      int rand = Random.Range(0, 6);
+      switch (rand)
+      {
+         case 0:
+            GoalKeeper.SetBool("LL", true);
+            break;
+         case 1:
+            GoalKeeper.SetBool("LM", true);
+            break;
+         case 2:
+            GoalKeeper.SetBool("LH", true);
+            break;
+         case 3:
+            GoalKeeper.SetBool("RL", true);
+            break;
+         case 4:
+            GoalKeeper.SetBool("RM", true);
+            break;
+         case 5:
+            GoalKeeper.SetBool("RH", true);
+            break;
+      }
    }
    #endregion  //End public methods
 

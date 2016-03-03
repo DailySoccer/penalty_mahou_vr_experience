@@ -7320,6 +7320,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 407124}
   - 95: {fileID: 9536332}
+  - 114: {fileID: 11496410}
   m_Layer: 0
   m_Name: CameraReference
   m_TagString: Untagged
@@ -21852,7 +21853,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 191310}
-  m_LocalRotation: {x: .084833011, y: .701999545, z: .701999545, w: -.0848329812}
+  m_LocalRotation: {x: .0848330185, y: .701999605, z: .701999605, w: -.0848329887}
   m_LocalPosition: {x: -56.4300003, y: 0, z: 31.9500008}
   m_LocalScale: {x: 113.975777, y: 113.975716, z: 113.975708}
   m_Children: []
@@ -29875,7 +29876,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 128118}
-  m_LocalRotation: {x: .125767946, y: -.695832193, z: -.695832133, w: -.125767976}
+  m_LocalRotation: {x: .125767961, y: -.695832253, z: -.695832193, w: -.125767991}
   m_LocalPosition: {x: 8.18299961, y: 0, z: -39.8059998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -54607,7 +54608,7 @@ Animator:
   m_GameObject: {fileID: 157522}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 9010d495a79e067489ba170beedbef4b, type: 3}
-  m_Controller: {fileID: 9100000, guid: f98d964b4cd718f40895cc96147f8355, type: 2}
+  m_Controller: {fileID: 9100000, guid: e77f96256ac6b1442be2894a05c2d442, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -54726,7 +54727,7 @@ Animator:
   m_GameObject: {fileID: 163338}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 9010d495a79e067489ba170beedbef4b, type: 3}
-  m_Controller: {fileID: 9100000, guid: 0c50661e91924e044b42c9e74fb37efa, type: 2}
+  m_Controller: {fileID: 9100000, guid: 727c853e009832942bb9e3b126d659dd, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -54760,7 +54761,7 @@ Animator:
   m_GameObject: {fileID: 102044}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 9010d495a79e067489ba170beedbef4b, type: 3}
-  m_Controller: {fileID: 9100000, guid: fd12de5be4a0d444e83b77a46d4d2fab, type: 2}
+  m_Controller: {fileID: 9100000, guid: 39d033654122696449892f9048c2ad44, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -54794,7 +54795,7 @@ Animator:
   m_GameObject: {fileID: 161160}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 9010d495a79e067489ba170beedbef4b, type: 3}
-  m_Controller: {fileID: 9100000, guid: c6a04aa16ea3d2942b3688e3e45bbec0, type: 2}
+  m_Controller: {fileID: 9100000, guid: a5559e8afc64daa45a0bcab1b40b6939, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -54896,7 +54897,7 @@ Animator:
   m_GameObject: {fileID: 154484}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 9010d495a79e067489ba170beedbef4b, type: 3}
-  m_Controller: {fileID: 9100000, guid: f6594d5b026d87e488544e7a3ef327ce, type: 2}
+  m_Controller: {fileID: 9100000, guid: f73db25d54c130e4cac26b01c0551316, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -55571,6 +55572,19 @@ MonoBehaviour:
   m_Script: {fileID: 0}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11496410
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 637aa4eb06f450c4cbd65105b7f0a318, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShooterPlayer: {fileID: 0}
+  GoalKeeper: {fileID: 0}
 --- !u!114 &11498362
 MonoBehaviour:
   m_ObjectHideFlags: 1
