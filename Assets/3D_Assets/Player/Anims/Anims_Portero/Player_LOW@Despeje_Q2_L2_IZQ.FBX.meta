@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 4a088a714bb8c8a48879b3a94a89707f
 ModelImporter:
-  serializedVersion: 15
+  serializedVersion: 18
   fileIDToRecycleName:
     100000: Bip001
     100002: Bip001 Footsteps
@@ -319,7 +319,28 @@ ModelImporter:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     optimizeGameObjects: 0
-    animationCompression: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 'MuscleClip ''Player_LOW@Despeje_Q2_L2_IZQ'' conversion
+      warning: ''Root/Bip001'' has scale animation''. It is not supported.
+
+      MuscleClip ''Player_LOW@Despeje_Q2_L2_IZQ''conversion warning: ''Root/Bip001/Bip001
+      Pelvis'' has translation animation. It is not supported.
+
+
+      MuscleClip ''Player_LOW@Despeje_Q2_L2_IZQ'' conversion warning: ''Root/Bip001/Bip001
+      Pelvis'' is between humanoid transforms and has rotation animation. This might
+      lower retargeting quality.
+
+
+      MuscleClip ''Player_LOW@Despeje_Q2_L2_IZQ''conversion warning: ''Root/Bip001/Bip001
+      Pelvis/Bip001 Spine'' has translation animation. It is not supported.
+
+
+'
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
@@ -384,18 +405,20 @@ ModelImporter:
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     splitTangentsAcrossUV: 1
     normalImportMode: 0
     tangentImportMode: 1
   importAnimation: 1
-  copyAvatar: 1
+  copyAvatar: 0
   humanDescription:
     human:
     - boneName: Bip001
@@ -749,8 +772,10 @@ ModelImporter:
     armStretch: .0500000007
     legStretch: .0500000007
     feetSpacing: 0
-    rootMotionBoneName: 
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 9010d495a79e067489ba170beedbef4b,
-    type: 3}
-  animationType: 3
+    rootMotionBoneName: Root
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

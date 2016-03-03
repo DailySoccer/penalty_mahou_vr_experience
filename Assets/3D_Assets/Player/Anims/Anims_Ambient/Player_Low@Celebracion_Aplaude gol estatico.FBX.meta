@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c7dbd9c390d80934f9e639410f4732cb
+guid: da632f08a8e2b17479617252e3f0bb23
 ModelImporter:
   serializedVersion: 18
   fileIDToRecycleName:
@@ -33,59 +33,11 @@ ModelImporter:
     100054: Bip001 R UpperArm
     100056: Bip001 Spine
     100058: Bip001 Spine1
-    100060: //RootNode
-    100062: Player_LOW_body
-    100064: Player_LOW_pelo1
-    100066: Player_LOW_pelo2
-    100068: Player_LOW_pelo3
-    100070: '#_Skel_ComisuraDER'
-    100072: '#_Skel_Mandibula'
-    100074: '#_Skel_OjoIZQ'
-    100076: Eye_left
-    100078: Eye_right
-    100080: Flequi_pelo10_a
-    100082: Flequi_pelo10_b
-    100084: Flequi_pelo10_c
-    100086: Flequi_pelo10_d
-    100088: Flequi_pelo10_e
-    100090: Flequi_pelo10_f
-    100092: Flequi_pelo10_g
-    100094: Flequi_pelo10_h
-    100096: Flequi_pelo10_i
-    100098: Flequi_pelo10_j
-    100100: Flequi_pelo11_a
-    100102: Flequi_pelo11_b
-    100104: Flequi_pelo11_c
-    100106: Flequi_pelo11_d
-    100108: Flequi_pelo11_e
-    100110: Flequi_pelo11_f
-    100112: Flequi_pelo11_g
-    100114: Flequi_pelo11_h
-    100116: Flequi_pelo11_i
-    100118: Flequi_pelo11_j
-    100120: Flequi_pelo12_a
-    100122: Flequi_pelo12_b
-    100124: Flequi_pelo12_c
-    100126: Flequi_pelo9_a
-    100128: Flequi_pelo9_b
-    100130: Flequi_pelo9_c
-    100132: Flequi_pelo9_d
-    100134: Flequillo_pelo4
-    100136: H_Balon_AA
-    100138: Mandibula
-    100140: Pelo_1
-    100142: Pelo_10
-    100144: Pelo_11
-    100146: Pelo_12
-    100148: Pelo_2
-    100150: Pelo_3
-    100152: Pelo_4
-    100154: Pelo_5
-    100156: Pelo_6
-    100158: Pelo_7
-    100160: Pelo_8
-    100162: Pelo_9
-    100164: Root
+    100060: H_Balon_AA
+    100062: //RootNode
+    100064: Player_LOW_body
+    100066: Root
+    100068: BipXtra Ball
     400000: Bip001
     400002: Bip001 Footsteps
     400004: Bip001 Head
@@ -116,201 +68,17 @@ ModelImporter:
     400054: Bip001 R UpperArm
     400056: Bip001 Spine
     400058: Bip001 Spine1
-    400060: //RootNode
-    400062: Player_LOW_body
-    400064: Player_LOW_pelo1
-    400066: Player_LOW_pelo2
-    400068: Player_LOW_pelo3
-    400070: '#_Skel_ComisuraDER'
-    400072: '#_Skel_Mandibula'
-    400074: '#_Skel_OjoIZQ'
-    400076: Eye_left
-    400078: Eye_right
-    400080: Flequi_pelo10_a
-    400082: Flequi_pelo10_b
-    400084: Flequi_pelo10_c
-    400086: Flequi_pelo10_d
-    400088: Flequi_pelo10_e
-    400090: Flequi_pelo10_f
-    400092: Flequi_pelo10_g
-    400094: Flequi_pelo10_h
-    400096: Flequi_pelo10_i
-    400098: Flequi_pelo10_j
-    400100: Flequi_pelo11_a
-    400102: Flequi_pelo11_b
-    400104: Flequi_pelo11_c
-    400106: Flequi_pelo11_d
-    400108: Flequi_pelo11_e
-    400110: Flequi_pelo11_f
-    400112: Flequi_pelo11_g
-    400114: Flequi_pelo11_h
-    400116: Flequi_pelo11_i
-    400118: Flequi_pelo11_j
-    400120: Flequi_pelo12_a
-    400122: Flequi_pelo12_b
-    400124: Flequi_pelo12_c
-    400126: Flequi_pelo9_a
-    400128: Flequi_pelo9_b
-    400130: Flequi_pelo9_c
-    400132: Flequi_pelo9_d
-    400134: Flequillo_pelo4
-    400136: H_Balon_AA
-    400138: Mandibula
-    400140: Pelo_1
-    400142: Pelo_10
-    400144: Pelo_11
-    400146: Pelo_12
-    400148: Pelo_2
-    400150: Pelo_3
-    400152: Pelo_4
-    400154: Pelo_5
-    400156: Pelo_6
-    400158: Pelo_7
-    400160: Pelo_8
-    400162: Pelo_9
-    400164: Root
-    2300000: '#_Skel_ComisuraDER'
-    2300002: '#_Skel_Mandibula'
-    2300004: '#_Skel_OjoIZQ'
-    2300006: Flequi_pelo10_a
-    2300008: Flequi_pelo10_b
-    2300010: Flequi_pelo10_c
-    2300012: Flequi_pelo10_d
-    2300014: Flequi_pelo10_e
-    2300016: Flequi_pelo10_f
-    2300018: Flequi_pelo10_g
-    2300020: Flequi_pelo10_h
-    2300022: Flequi_pelo10_i
-    2300024: Flequi_pelo10_j
-    2300026: Flequi_pelo11_a
-    2300028: Flequi_pelo11_b
-    2300030: Flequi_pelo11_c
-    2300032: Flequi_pelo11_d
-    2300034: Flequi_pelo11_e
-    2300036: Flequi_pelo11_f
-    2300038: Flequi_pelo11_g
-    2300040: Flequi_pelo11_h
-    2300042: Flequi_pelo11_i
-    2300044: Flequi_pelo11_j
-    2300046: Flequi_pelo12_a
-    2300048: Flequi_pelo12_b
-    2300050: Flequi_pelo12_c
-    2300052: Flequi_pelo9_a
-    2300054: Flequi_pelo9_b
-    2300056: Flequi_pelo9_c
-    2300058: Flequi_pelo9_d
-    2300060: Flequillo_pelo4
-    2300062: H_Balon_AA
-    2300064: Pelo_1
-    2300066: Pelo_10
-    2300068: Pelo_11
-    2300070: Pelo_12
-    2300072: Pelo_2
-    2300074: Pelo_3
-    2300076: Pelo_4
-    2300078: Pelo_5
-    2300080: Pelo_6
-    2300082: Pelo_7
-    2300084: Pelo_8
-    2300086: Pelo_9
-    3300000: '#_Skel_ComisuraDER'
-    3300002: '#_Skel_Mandibula'
-    3300004: '#_Skel_OjoIZQ'
-    3300006: Flequi_pelo10_a
-    3300008: Flequi_pelo10_b
-    3300010: Flequi_pelo10_c
-    3300012: Flequi_pelo10_d
-    3300014: Flequi_pelo10_e
-    3300016: Flequi_pelo10_f
-    3300018: Flequi_pelo10_g
-    3300020: Flequi_pelo10_h
-    3300022: Flequi_pelo10_i
-    3300024: Flequi_pelo10_j
-    3300026: Flequi_pelo11_a
-    3300028: Flequi_pelo11_b
-    3300030: Flequi_pelo11_c
-    3300032: Flequi_pelo11_d
-    3300034: Flequi_pelo11_e
-    3300036: Flequi_pelo11_f
-    3300038: Flequi_pelo11_g
-    3300040: Flequi_pelo11_h
-    3300042: Flequi_pelo11_i
-    3300044: Flequi_pelo11_j
-    3300046: Flequi_pelo12_a
-    3300048: Flequi_pelo12_b
-    3300050: Flequi_pelo12_c
-    3300052: Flequi_pelo9_a
-    3300054: Flequi_pelo9_b
-    3300056: Flequi_pelo9_c
-    3300058: Flequi_pelo9_d
-    3300060: Flequillo_pelo4
-    3300062: H_Balon_AA
-    3300064: Pelo_1
-    3300066: Pelo_10
-    3300068: Pelo_11
-    3300070: Pelo_12
-    3300072: Pelo_2
-    3300074: Pelo_3
-    3300076: Pelo_4
-    3300078: Pelo_5
-    3300080: Pelo_6
-    3300082: Pelo_7
-    3300084: Pelo_8
-    3300086: Pelo_9
-    4300000: Player_LOW_pelo2
-    4300002: Player_LOW_body
-    4300004: Player_LOW_pelo3
-    4300006: Player_LOW_pelo1
-    4300008: Pelo_1
-    4300010: Pelo_2
-    4300012: Pelo_3
-    4300014: Pelo_4
-    4300016: Flequillo_pelo4
-    4300018: Pelo_5
-    4300020: Pelo_6
-    4300022: Pelo_7
-    4300024: Pelo_8
-    4300026: Pelo_9
-    4300028: Flequi_pelo9_d
-    4300030: Flequi_pelo9_c
-    4300032: Flequi_pelo9_b
-    4300034: Flequi_pelo9_a
-    4300036: Pelo_10
-    4300038: Flequi_pelo10_a
-    4300040: Flequi_pelo10_b
-    4300042: Flequi_pelo10_c
-    4300044: Flequi_pelo10_d
-    4300046: Flequi_pelo10_e
-    4300048: Flequi_pelo10_f
-    4300050: Flequi_pelo10_g
-    4300052: Flequi_pelo10_h
-    4300054: Flequi_pelo10_i
-    4300056: Flequi_pelo10_j
-    4300058: Pelo_11
-    4300060: Flequi_pelo11_a
-    4300062: Flequi_pelo11_b
-    4300064: Flequi_pelo11_c
-    4300066: Flequi_pelo11_d
-    4300068: Flequi_pelo11_e
-    4300070: Flequi_pelo11_f
-    4300072: Flequi_pelo11_g
-    4300074: Flequi_pelo11_h
-    4300076: Flequi_pelo11_i
-    4300078: Flequi_pelo11_j
-    4300080: Pelo_12
-    4300082: Flequi_pelo12_a
-    4300084: Flequi_pelo12_b
-    4300086: Flequi_pelo12_c
-    4300088: '#_Skel_ComisuraDER'
-    4300090: '#_Skel_Mandibula'
-    4300092: '#_Skel_OjoIZQ'
-    4300094: H_Balon_AA
-    7400000: Despeje_Q2_L1_IZQ
+    400060: H_Balon_AA
+    400062: //RootNode
+    400064: Player_LOW_body
+    400066: Root
+    400068: BipXtra Ball
+    4300000: Player_LOW_body
+    4300002: H_Balon_AA
+    7400000: Celebracion_Aplaude gol estatico
     9500000: //RootNode
     13700000: Player_LOW_body
-    13700002: Player_LOW_pelo1
-    13700004: Player_LOW_pelo2
-    13700006: Player_LOW_pelo3
+    13700002: H_Balon_AA
   materials:
     importMaterials: 0
     materialName: 0
@@ -321,26 +89,20 @@ ModelImporter:
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 'MuscleClip ''Player_LOW@Despeje_Q2_L1_IZQ'' conversion
-      warning: ''Root/Bip001'' has scale animation''. It is not supported.
-
-      MuscleClip ''Player_LOW@Despeje_Q2_L1_IZQ'' conversion warning: ''Root/Bip001/Bip001
-      Pelvis'' is between humanoid transforms and has rotation animation. This might
-      lower retargeting quality.
+    animationImportWarnings: 'MuscleClip ''Player_Low@Celebracion_Aplaude gol estatico''
+      conversion warning: ''Root/Bip001/Bip001 Pelvis'' is between humanoid transforms
+      and has rotation animation. This might lower retargeting quality.
 
 
-      MuscleClip ''Player_LOW@Despeje_Q2_L1_IZQ''conversion warning: ''Root/Bip001/Bip001
-      Pelvis/Bip001 Spine'' has translation animation. It is not supported.
-
-
-      MuscleClip ''Player_LOW@Despeje_Q2_L1_IZQ''conversion warning: ''Root/Bip001/Bip001
-      Pelvis/Bip001 Spine/Bip001 Spine1'' has translation animation. It is not supported.
+      MuscleClip ''Player_Low@Celebracion_Aplaude gol estatico''conversion warning:
+      ''Root/Bip001/Bip001 Pelvis/Bip001 Spine'' has translation animation. It is
+      not supported.
 
 
 '
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
@@ -348,50 +110,115 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: Despeje_Q2_L1_IZQ
+      name: Celebracion_Aplaude gol estatico
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 114
+      lastFrame: 200
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 0
-      loopBlendPositionY: 1
-      loopBlendPositionXZ: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 0
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves:
-      - name: Lock
-        curve:
-          serializedVersion: 2
-          curve:
-          - time: 0
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-          - time: .953890502
-            value: 1
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-          - time: 1
-            value: 0
-            inSlope: 0
-            outSlope: 0
-            tangentMode: 0
-          preInfinity: 2
-          postInfinity: 2
+      curves: []
       events: []
-      transformMask: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: H_Balon_AA
+        weight: 0
+      - path: Player_LOW_body
+        weight: 0
+      - path: Root
+        weight: 1
+      - path: Root/Bip001
+        weight: 1
+      - path: Root/Bip001/Bip001 Footsteps
+        weight: 0
+      - path: Root/Bip001/Bip001 Pelvis
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 L Thigh
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001
+          L Toe0
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 L Thigh/Bip001 L Calf/Bip001 L Foot/Bip001
+          L Toe0/Bip001 L Toe0Nub
+        weight: 0
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 R Thigh
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001
+          R Toe0
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 R Thigh/Bip001 R Calf/Bip001 R Foot/Bip001
+          R Toe0/Bip001 R Toe0Nub
+        weight: 0
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+          L UpperArm
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0
+        weight: 0
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 L Clavicle/Bip001
+          L UpperArm/Bip001 L Forearm/Bip001 L Hand/Bip001 L Finger0/Bip001 L Finger0Nub
+        weight: 0
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          Head
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+          Head/Bip001 HeadNub
+        weight: 0
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+          R UpperArm
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand
+        weight: 1
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0
+        weight: 0
+      - path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 R Clavicle/Bip001
+          R UpperArm/Bip001 R Forearm/Bip001 R Hand/Bip001 R Finger0/Bip001 R Finger0Nub
+        weight: 0
+      - path: Root/Bip001/BipXtra Ball
+        weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
     isReadable: 0
@@ -418,7 +245,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 1
   importAnimation: 1
-  copyAvatar: 0
+  copyAvatar: 1
   humanDescription:
     human:
     - boneName: Bip001
@@ -772,9 +599,10 @@ ModelImporter:
     armStretch: .0500000007
     legStretch: .0500000007
     feetSpacing: 0
-    rootMotionBoneName: Root
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 9010d495a79e067489ba170beedbef4b,
+    type: 3}
+  animationType: 3
   additionalBone: 0
   userData: 
   assetBundleName: 

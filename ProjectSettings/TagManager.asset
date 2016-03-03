@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Goal
+  - Cancha
+  - Stadium
+  - Out
   layers:
   - Default
   - TransparentFX

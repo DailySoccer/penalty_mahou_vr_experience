@@ -28,6 +28,10 @@ public class IntroSoundFade : MonoBehaviour
    /// </summary>
    [Range(0.01f, 3)]
    public float FadeTime = 2;
+   /// <summary>
+   /// Player to trigger initial animation.
+   /// </summary>
+   public Animator PlayerAnimator;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
@@ -41,6 +45,7 @@ public class IntroSoundFade : MonoBehaviour
    {
       _animateVolume = true;
       _startTime = Time.time;
+      PlayerAnimator.SetBool("Start", true);
    }
    #endregion  //End public methods
 
@@ -53,7 +58,7 @@ public class IntroSoundFade : MonoBehaviour
    /// </summary>
    void Start()
    {
-      _initiated = GeneralAudios != null && GeneralAudios.Length != 0 && Heart != null;
+      _initiated = GeneralAudios != null && GeneralAudios.Length != 0 && Heart != null && PlayerAnimator != null;
       if (!_initiated)
       {
          Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined. Sounds references missing. </color>");

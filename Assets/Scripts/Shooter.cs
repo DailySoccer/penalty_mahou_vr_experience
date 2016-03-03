@@ -89,6 +89,10 @@ public class Shooter : MonoBehaviour
          {
             Respawn();
          }*/
+         if (Input.GetKeyDown(KeyCode.Space))
+         {
+            Shoot();
+         }
       }
    }
    #endregion  //End monobehaviour methods

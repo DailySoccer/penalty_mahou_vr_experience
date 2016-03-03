@@ -9,11 +9,14 @@ public class GoalDetector : MonoBehaviour
    //                      PUBLIC MEMBERS                       //
    //-----------------------------------------------------------//
    #region Public members
-   public delegate void voidNoparams();
+   public delegate void void1Bool(bool result);
    /// <summary>
    /// Event to be triggered when the rigidbody enters a trigger with 'Goal' tag.
    /// </summary>
-   public event voidNoparams GoalScored = null;
+   public event void1Bool BallEvent = null;
+   public AudioSource Goal;
+   public AudioSource Out;
+   public Animator Close;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
@@ -31,6 +34,12 @@ public class GoalDetector : MonoBehaviour
    /// </summary>
    void Start()
    {
+      _initiated = Goal != null && Out != null && Close != null;
+      if (!_initiated)
+      {
+         Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined." +
+                     " </color>");
+      }
       _state = MotionState.Moving;
       _myRigidbody = gameObject.GetComponent<Rigidbody>();
    }
@@ -56,16 +65,31 @@ public class GoalDetector : MonoBehaviour
    /// <param name="other">Collider the collision was detected with.</param>
    void OnTriggerEnter(Collider other)
    {
-      if (other.tag.Equals("Goal")){
-         if (_state == MotionState.Moving)
+      if (_initiated)
+      {
+         if (other.tag.Equals("Goal"))
          {
-            if (GoalScored != null)
+            if (_state == MotionState.Moving)
             {
-               GoalScored();
+               if (BallEvent != null)
+               {
+                  BallEvent(true);
+               }
             }
+            _state = MotionState.Quiet;
+            Goal.Play();
+            Close.SetBool("End", true);
+            //Debug.Log("<color=green>Collision with " + other.transform.name + "</color>");
          }
-         _state = MotionState.Quiet;
-         //Debug.Log("<color=green>Collision with " + other.transform.name + "</color>");
+         else if (other.tag.Equals("Out"))
+         {
+            if (BallEvent != null)
+            {
+               BallEvent(false);
+            }
+            Out.Play();
+            Close.SetBool("End", true);
+         }
       }
    }
 
@@ -102,5 +126,6 @@ public class GoalDetector : MonoBehaviour
    private MotionState _state;
    private float ZERO_PRECISSION = 0.05f;
    private Rigidbody _myRigidbody;
+   private bool _initiated;
    #endregion  //End private members
 }
