@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class OculusReposition : MonoBehaviour
+public class ParentReposition : MonoBehaviour
 {
    //-----------------------------------------------------------//
    //                      PUBLIC MEMBERS                       //
@@ -12,6 +12,10 @@ public class OculusReposition : MonoBehaviour
    /// New parent for the oculus camera to be repositioned.
    /// </summary>
    public Transform NewParent;
+   /// <summary>
+   /// Local position respect new parent.
+   /// </summary>
+   public Vector3 NewLocalPosition = Vector3.zero;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
@@ -33,7 +37,7 @@ public class OculusReposition : MonoBehaviour
       if (_initiated)
       {
          transform.SetParent(NewParent);
-         transform.localPosition = Vector3.zero;
+         transform.localPosition = NewLocalPosition;
          transform.localRotation = Quaternion.identity;
       }
       else
