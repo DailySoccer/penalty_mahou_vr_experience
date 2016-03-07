@@ -9,6 +9,10 @@ public class SightPointer : MonoBehaviour
    //-----------------------------------------------------------//
    #region Public members
    /// <summary>
+   /// Material to be used for the crosshair's sprite materail.
+   /// </summary>
+   public Material CrosshairMaterial;
+   /// <summary>
    /// Outer part of the pointer.
    /// </summary>
    public Sprite Outer;
@@ -41,6 +45,10 @@ public class SightPointer : MonoBehaviour
          _innerImage = auxRefInner.AddComponent<SpriteRenderer>();
          _outerImage.sprite = Outer;
          _innerImage.sprite = Inner;
+         if (CrosshairMaterial != null)
+         {
+            _outerImage.material = _innerImage.material = CrosshairMaterial;
+         }
          _outerImage.sortingOrder = _innerImage.sortingOrder = 20;
          _imageHolder.SetParent(transform);
          auxRefOuter.transform.SetParent(_imageHolder);

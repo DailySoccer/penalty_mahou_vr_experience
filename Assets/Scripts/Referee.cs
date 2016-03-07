@@ -9,12 +9,10 @@ public class Referee : MonoBehaviour
    //                      PUBLIC MEMBERS                       //
    //-----------------------------------------------------------//
    #region Public members
-   public Animator AnimPlayer;
    public Shooter ShooterReference;
    public AudioClip Whistle;
    public float WAIT_TIME = 30;
    public float FIRST_WHISTLE = 10;
-   public float WAIT_ANIMATION = 5;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
@@ -32,7 +30,7 @@ public class Referee : MonoBehaviour
    /// </summary>
    void Start()
    {
-      _initiated = ShooterReference != null && Whistle != null && AnimPlayer != null;
+      _initiated = ShooterReference != null && Whistle != null;
       if (_initiated)
       {
          _startTime = Time.time;
@@ -64,10 +62,6 @@ public class Referee : MonoBehaviour
             _whistlePlayer.Play();
             ShooterReference.AbleToShoot = true;
             _startTime = Time.time;
-         }
-         if (!_pending && Time.time - _startTime > WAIT_ANIMATION)
-         {
-            AnimPlayer.SetBool("ChutDemo", true);
          }
       }
    }

@@ -9,9 +9,9 @@ public class CrosshairHUD : MonoBehaviour
    //-----------------------------------------------------------//
    #region Public members
    /// <summary>
-   /// Reference to the camera where the crosshair will be placed.
+   /// Reference to the camera transform where the crosshair will be placed.
    /// </summary>
-   public Camera CameraRef;
+   public Transform CameraRef;
    /// <summary>
    /// Graphic used as crosshair.
    /// </summary>
@@ -46,7 +46,7 @@ public class CrosshairHUD : MonoBehaviour
          SightPointer auxRef = GameObject.Instantiate<SightPointer>(CrosshairGraphicPref);
          auxRef.Init();
          _crosshairRef = auxRef.gameObject;
-         _crosshairRef.transform.SetParent(CameraRef.transform);
+         _crosshairRef.transform.SetParent(CameraRef);
          _crosshairRef.transform.localPosition = new Vector3(0, 0, CROSSHAIR_DISTANCE);
          _crosshairRef.transform.localRotation = Quaternion.identity;
       }

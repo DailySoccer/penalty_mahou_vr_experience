@@ -39,6 +39,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2626bd75d4fb6884d8d153916ce95e24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CrosshairMaterial: {fileID: 2100000, guid: ba706a29ecb23c747920eaa66c70c171, type: 2}
   Outer: {fileID: 21300000, guid: b822adf76ea746a42b8b9613abb6b5a9, type: 3}
   Inner: {fileID: 21300000, guid: 64882cca4373c664f8c40b54a1e02e7c, type: 3}
   PointerSize: .649999976
@@ -53,6 +54,10 @@ Prefab:
       propertyPath: PointerSize
       value: .649999976
       objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: CrosshairMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: ba706a29ecb23c747920eaa66c70c171, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 121212}

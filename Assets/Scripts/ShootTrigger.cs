@@ -46,6 +46,11 @@ public class ShootTrigger : MonoBehaviour
             break;
       }
    }
+
+   public void GoalKeeperStand()
+   {
+      GoalKeeper.SetBool("Hold", true);
+   }
    #endregion  //End public methods
 
    //-----------------------------------------------------------//

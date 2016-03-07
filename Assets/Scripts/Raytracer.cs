@@ -9,9 +9,9 @@ public class Raytracer : MonoBehaviour
    //-----------------------------------------------------------//
    #region Public members
    /// <summary>
-   /// Reference to the camera where the ray direction will be taken from.
+   /// Reference to the transform where the ray direction will be taken from.
    /// </summary>
-   public Camera CameraRef;
+   public Transform ForwardRef;
    /// <summary>
    /// Area width the ray will be cast to.
    /// </summary>
@@ -35,13 +35,13 @@ public class Raytracer : MonoBehaviour
       }
       else
       {
-         Vector3 relPos = _cameraRef.position - transform.position;
+         Vector3 relPos = ForwardRef.position - transform.position;
          float normalDis = Vector3.Dot(relPos, transform.forward);
-         float cosNorSol = Vector3.Dot(_cameraRef.forward, transform.forward);
+         float cosNorSol = Vector3.Dot(ForwardRef.forward, transform.forward);
          if (cosNorSol != 0)
          {//There is intersection
             float solModule = -normalDis / cosNorSol;
-            solution = _cameraRef.transform.position + _cameraRef.forward * solModule;
+            solution = ForwardRef.transform.position + ForwardRef.forward * solModule;
          }
          else
          {//Look direction is parallel to plane
@@ -63,14 +63,13 @@ public class Raytracer : MonoBehaviour
    /// </summary>
    void Start()
    {
-      _initiated = CameraRef != null;
+      _initiated = ForwardRef != null;
       if (_initiated)
       {
-         _cameraRef = CameraRef.transform;
       }
       else
       {
-         Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined." + (CameraRef == null ? " Camera reference missing." : string.Empty) +
+         Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined." + (ForwardRef == null ? " Camera reference missing." : string.Empty) +
                    " </color>");
       }
    }
@@ -95,6 +94,5 @@ public class Raytracer : MonoBehaviour
    //-----------------------------------------------------------//
    #region Private members
    private bool _initiated;
-   private Transform _cameraRef;
    #endregion  //End private members
 }

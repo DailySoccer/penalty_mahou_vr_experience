@@ -16,6 +16,10 @@ public class ParentReposition : MonoBehaviour
    /// Local position respect new parent.
    /// </summary>
    public Vector3 NewLocalPosition = Vector3.zero;
+   /// <summary>
+   /// If true, the transform's localRotation will be set to Quaternion.identity.
+   /// </summary>
+   public bool ResetLocalRotation = true;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
@@ -38,7 +42,10 @@ public class ParentReposition : MonoBehaviour
       {
          transform.SetParent(NewParent);
          transform.localPosition = NewLocalPosition;
-         transform.localRotation = Quaternion.identity;
+         if (ResetLocalRotation)
+         {
+            transform.localRotation = Quaternion.identity;
+         }
       }
       else
       {
