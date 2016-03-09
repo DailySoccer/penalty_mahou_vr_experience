@@ -34,6 +34,34 @@ public class SoundSwapper : MonoBehaviour
    //                      PUBLIC METHODS                       //
    //-----------------------------------------------------------//
    #region Public methods
+   /// <summary>
+   /// Start playing sounds.
+   /// </summary>
+   public void PlaySound()
+   {
+      if (_initiated)
+      {
+         if (_paused)
+         {
+            NextCicle();
+            _paused = false;
+         }
+      }
+   }
+   /// <summary>
+   /// Pause playing sounds.
+   /// </summary>
+   public void PauseSound()
+   {
+      if (_initiated)
+      {
+         if (!_paused)
+         {
+            _audioPlayer.Stop();
+            _paused = true;
+         }
+      }
+   }
    #endregion  //End public methods
 
    //-----------------------------------------------------------//
@@ -48,8 +76,8 @@ public class SoundSwapper : MonoBehaviour
       _initiated = Sounds != null && Sounds.Length != 0;
       if (_initiated)
       {
+         _paused = true;
          _audioPlayer = gameObject.GetComponent<AudioSource>();
-         NextCicle();
       }
       else
       {
@@ -118,5 +146,6 @@ public class SoundSwapper : MonoBehaviour
    private float _clipLength;
    private float _clipLengthHalf;
    private bool _letsPlaySound;
+   private bool _paused;
    #endregion  //End private members
 }

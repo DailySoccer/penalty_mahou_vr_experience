@@ -26,7 +26,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 440690}
   m_Layer: 5
-  m_Name: Marker
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -145,7 +145,7 @@ MonoBehaviour:
   LoadTime: 2
   UnloadTime: 1
   LoadImage: {fileID: 11428266}
-  Selection: 1
+  Selection: 0
   SelectionAnimTime: 1
   SelectedParams:
     SelectedScale: {x: 1.2, y: 1.2, z: 1.2}

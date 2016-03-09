@@ -73,7 +73,7 @@ public class Shooter : MonoBehaviour
       }
       else
       {
-         Debug.Log("<color=#FFA500FF>CrosshairHUD.cs - Warning: Initial parameters undefined." + (Ball == null ? " Rigidbody reference missing." : string.Empty) +
+         Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined." + (Ball == null ? " Rigidbody reference missing." : string.Empty) +
                    (Raycast == null ? " Raycast \'Raycaster\' object reference missing." : string.Empty) +
                    (BallKick == null ? " Sound effect reference missing." : string.Empty) +
                    " </color>");
@@ -88,11 +88,11 @@ public class Shooter : MonoBehaviour
          /*if (Input.GetKeyDown(KeyCode.RightShift))
          {
             Respawn();
-         }*/
+         }
          if (Input.GetKeyDown(KeyCode.Space))
          {
             Shoot();
-         }
+         }*/
       }
    }
    #endregion  //End monobehaviour methods
