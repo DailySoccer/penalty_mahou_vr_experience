@@ -21,6 +21,10 @@ public class CrosshairHUD : MonoBehaviour
    /// </summary>
    [Range(0.5f, 20f)]
    public float CROSSHAIR_DISTANCE = 1.75f;
+   public Transform CrosshairGraphic
+   {
+      get { return _initiated ? _crosshairRef.transform : null; }
+   }
    #endregion  //End public members
 
    //-----------------------------------------------------------//

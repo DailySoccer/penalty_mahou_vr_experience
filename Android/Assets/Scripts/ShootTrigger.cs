@@ -16,6 +16,12 @@ public class ShootTrigger : MonoBehaviour
    //                      PUBLIC METHODS                       //
    //-----------------------------------------------------------//
    #region Public methods
+   public void SetTargetJump(Vector3 targetJump)
+   {
+      _jumpDir = "";
+      Vector3 diff = targetJump - transform.position;
+      //TODO calculate direction to jump to
+   }
    public void TriggerShoot()
    {
       ShooterPlayer.Shoot();
@@ -23,28 +29,7 @@ public class ShootTrigger : MonoBehaviour
 
    public void GoalKeeperJump()
    {
-      int rand = Random.Range(0, 6);
-      switch (rand)
-      {
-         case 0:
-            GoalKeeper.SetBool("LL", true);
-            break;
-         case 1:
-            GoalKeeper.SetBool("LM", true);
-            break;
-         case 2:
-            GoalKeeper.SetBool("LH", true);
-            break;
-         case 3:
-            GoalKeeper.SetBool("RL", true);
-            break;
-         case 4:
-            GoalKeeper.SetBool("RM", true);
-            break;
-         case 5:
-            GoalKeeper.SetBool("RH", true);
-            break;
-      }
+      GoalKeeper.SetBool(_jumpDir, true);
    }
 
    public void GoalKeeperStand()
@@ -63,6 +48,7 @@ public class ShootTrigger : MonoBehaviour
    //                      PRIVATE METHODS                      //
    //-----------------------------------------------------------//
    #region Private methods
+   private string _jumpDir = "LL";
    #endregion  //End private methods
 
    //-----------------------------------------------------------//
