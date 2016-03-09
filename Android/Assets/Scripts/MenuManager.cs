@@ -9,6 +9,8 @@ public class MenuManager : MonoBehaviour
    //                      PUBLIC MEMBERS                       //
    //-----------------------------------------------------------//
    #region Public members
+   public delegate void VoidNoParams();
+   public event VoidNoParams StartCall;
    /// <summary>
    /// MenuElement to start application when hovered.
    /// </summary>
@@ -23,6 +25,29 @@ public class MenuManager : MonoBehaviour
    //                      PUBLIC METHODS                       //
    //-----------------------------------------------------------//
    #region Public methods
+   /// <summary>
+   /// Assign method to be called when start button
+   /// </summary>
+   /// <param name="method"></param>
+   public void SetStartCall(VoidNoParams method)
+   {
+      if (StartCall == null)
+      {
+         StartCall = method;
+      }
+      else
+      {
+         Debug.Log("<color=#8B2252FF>" + this.GetType().ToString() + ".cs - Warning: Parameter conflict." + " There is already a trigger event defined."
+            + " </color>");
+      }
+   }
+   /// <summary>
+   /// Clear method to be called when start button triggerd.
+   /// </summary>
+   public void ClearStartCall()
+   {
+      StartCall = null;
+   }
    #endregion  //End public methods
 
    //-----------------------------------------------------------//
@@ -64,8 +89,13 @@ public class MenuManager : MonoBehaviour
    #region Private methods
    private void StartButtonAction(MenuElement invoker)
    {
-      //TODO function to activate start of game
-      GameObject.FindObjectOfType<RestartAnimators>().Restart();
+      if (_initiated)
+      {
+         if (StartCall != null)
+         {
+            StartCall();
+         }
+      }
    }
    private void SelectButtonAction(MenuElement invoker)
    {
@@ -76,7 +106,7 @@ public class MenuManager : MonoBehaviour
       }
       _lastSelected = invoker;
       _selectedOption = SelectElements.IndexOf(invoker);
-      Debug.Log("<color=\"blue\">Selected index: " + _selectedOption + "</color");
+      //Debug.Log("<color=blue>Selected index: " + _selectedOption + "</color>");
    }
    #endregion  //End private methods
 

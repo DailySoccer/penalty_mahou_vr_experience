@@ -18,10 +18,6 @@ public class Shooter : MonoBehaviour
    /// </summary>
    public Rigidbody Ball;
    /// <summary>
-   /// Special raycaster to detect shoot direction.
-   /// </summary>
-   public Raytracer Raycast;
-   /// <summary>
    /// Force to be applied to shoot.
    /// </summary>
    public float Force = 5;
@@ -41,11 +37,24 @@ public class Shooter : MonoBehaviour
    //                      PUBLIC METHODS                       //
    //-----------------------------------------------------------//
    #region Public methods
+   /// <summary>
+   /// Sets target location for shooting.
+   /// </summary>
+   /// <param name="newTarget"></param>
+   public void SetTarget(Vector3 newTarget)
+   {
+      _target = newTarget;
+   }
+   /// <summary>
+   /// Shoots rigidbody ball towards inner target.
+   /// </summary>
    public void Shoot()
    {
-      Shoot(Raycast.RaycastPoint());
+      Shoot(_target);
    }
-
+   /// <summary>
+   /// Respawns rigidbody ball in penalty location.
+   /// </summary>
    public void Respawn()
    {
       if (_initiated)
@@ -66,7 +75,7 @@ public class Shooter : MonoBehaviour
    /// </summary>
    void Start()
    {
-      _initiated = Ball != null && Raycast != null && BallKick != null;
+      _initiated = Ball != null && BallKick != null;
       if (_initiated)
       {
          _respawnPoint = Ball.transform.position;
@@ -74,7 +83,6 @@ public class Shooter : MonoBehaviour
       else
       {
          Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined." + (Ball == null ? " Rigidbody reference missing." : string.Empty) +
-                   (Raycast == null ? " Raycast \'Raycaster\' object reference missing." : string.Empty) +
                    (BallKick == null ? " Sound effect reference missing." : string.Empty) +
                    " </color>");
       }
@@ -130,5 +138,6 @@ public class Shooter : MonoBehaviour
    #region Private members
    private bool _initiated;
    private Vector3 _respawnPoint = Vector3.zero;
+   private Vector3 _target = Vector3.zero;
    #endregion  //End private members
 }

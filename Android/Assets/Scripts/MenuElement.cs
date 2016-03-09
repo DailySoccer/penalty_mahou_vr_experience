@@ -196,11 +196,6 @@ public class MenuElement : MonoBehaviour
             SelectedTarget.localScale = Vector3.Slerp(_INIT.SelectedScale, SelectedParams.SelectedScale, _animPerc);
             SelectedTarget.localRotation = Quaternion.Slerp(Quaternion.Euler(_INIT.SelectedRotation), Quaternion.Euler(SelectedParams.SelectedRotation), _animPerc);
             _animToDo = perc < 1;
-            //TODO erase this two lines
-            if (!_animToDo)
-            {
-               Debug.Log("Local position: " + SelectedTarget.localPosition);
-            }
          }
       }
    }

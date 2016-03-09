@@ -2,57 +2,42 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class SoundLocalManager : MonoBehaviour
+public class UseReferee : MonoBehaviour
 {
    //-----------------------------------------------------------//
    //                      PUBLIC MEMBERS                       //
    //-----------------------------------------------------------//
    #region Public members
    /// <summary>
-   /// Sound sources to be ableto pause are resume.
+   /// Reference to the referee.
    /// </summary>
-   public SoundSwapper[] SoundGroup;
-   public AudioSource[] SoundSourceGroup;
+   public Referee RefereeReference;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
    //                      PUBLIC METHODS                       //
    //-----------------------------------------------------------//
    #region Public methods
-   /// <summary>
-   /// Pause playing sounds.
-   /// </summary>
-   public void PauseSound()
+   public void BlowWhistle()
    {
-      if (!_paused)
+      if (_initiated)
       {
-         _paused = true;
-         foreach (SoundSwapper ss in SoundGroup)
-         {
-            ss.PauseSound();
-         }
-         foreach (AudioSource ads in SoundSourceGroup)
-         {
-            ads.Stop();
-         }
+         RefereeReference.SoundWhistle();
       }
    }
-   /// <summary>
-   /// Start playing sounds.
-   /// </summary>
-   public void PlaySound()
+   public void AbleToShoot()
    {
-      if (_paused)
+      if (_initiated)
       {
-         _paused = false;
-         foreach (SoundSwapper ss in SoundGroup)
-         {
-            ss.PlaySound();
-         }
-         foreach (AudioSource ads in SoundSourceGroup)
-         {
-            ads.Play();
-         }
+         RefereeReference.AbleShoot(true);
+         BlowWhistle();
+      }
+   }
+   public void DisableToShoot()
+   {
+      if (_initiated)
+      {
+         RefereeReference.AbleShoot(false);
       }
    }
    #endregion  //End public methods
@@ -61,23 +46,19 @@ public class SoundLocalManager : MonoBehaviour
    //                  MONOBEHAVIOUR METHODS                    //
    //-----------------------------------------------------------//
    #region Monobehaviour methods
-   void Satart()
+   /// <summary>
+   /// 
+   /// </summary>
+   void Start()
    {
-      _initiated = SoundGroup != null && SoundGroup.Length != 0 && SoundSourceGroup != null && SoundSourceGroup.Length != 0;
+      _initiated = RefereeReference != null;
       if (_initiated)
       {
-         _paused = true;
       }
       else
       {
-         Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined. SoundSwapper references missing. </color>");
+         Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined. </color>");
       }
-   }
-   /// <summary>
-   /// Unity Update() method
-   /// </summary>
-   void Update()
-   {
    }
    #endregion  //End monobehaviour methods
 
@@ -92,6 +73,5 @@ public class SoundLocalManager : MonoBehaviour
    //-----------------------------------------------------------//
    #region Private members
    private bool _initiated;
-   private bool _paused;
    #endregion  //End private members
 }

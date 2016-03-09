@@ -19,6 +19,20 @@ public class Referee : MonoBehaviour
    //                      PUBLIC METHODS                       //
    //-----------------------------------------------------------//
    #region Public methods
+   /// <summary>
+   /// Make player able to shoot.
+   /// </summary>
+   public void AbleShoot(bool ability)
+   {
+      ShooterReference.AbleToShoot = ability;
+   }
+   /// <summary>
+   /// Sound refereee whistle.
+   /// </summary>
+   public void SoundWhistle()
+   {
+      _whistlePlayer.Play();
+   }
    #endregion  //End public methods
 
    //-----------------------------------------------------------//
@@ -49,6 +63,7 @@ public class Referee : MonoBehaviour
    /// </summary>
    void Update()
    {
+      /*
       if (_initiated)
       {
          if (_firstWhistle && Time.time - _startTime > FIRST_WHISTLE)
@@ -64,6 +79,7 @@ public class Referee : MonoBehaviour
             _startTime = Time.time;
          }
       }
+      */
    }
    #endregion  //End monobehaviour methods
 
