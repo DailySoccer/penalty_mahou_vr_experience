@@ -65,6 +65,7 @@ public class MenuManager : MonoBehaviour
    private void StartButtonAction(MenuElement invoker)
    {
       //TODO function to activate start of game
+      GameObject.FindObjectOfType<RestartAnimators>().Restart();
    }
    private void SelectButtonAction(MenuElement invoker)
    {

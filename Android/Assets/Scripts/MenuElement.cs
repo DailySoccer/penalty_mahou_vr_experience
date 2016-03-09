@@ -149,9 +149,12 @@ public class MenuElement : MonoBehaviour
       if (_initiated)
       {
          RestartOptions();
-         _INIT.SelectedPosition = SelectedTarget.localPosition;
-         _INIT.SelectedRotation = SelectedTarget.localEulerAngles;
-         _INIT.SelectedScale = SelectedTarget.localScale;
+         if (Selection)
+         {
+            _INIT.SelectedPosition = SelectedTarget.localPosition;
+            _INIT.SelectedRotation = SelectedTarget.localEulerAngles;
+            _INIT.SelectedScale = SelectedTarget.localScale;
+         }
       }
       else
       {
