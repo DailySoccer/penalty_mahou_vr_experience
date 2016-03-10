@@ -41,7 +41,7 @@ public class ShootTrigger : MonoBehaviour
       {
          _jumpDir += "H";
       }
-      Debug.Log("Jumping to " + _jumpDir + " " + diff + ";" + targetJump + ";" + GoalKeeper.transform.position);
+      //Debug.Log("Jumping to " + _jumpDir + " " + diff + ";" + targetJump + ";" + GoalKeeper.transform.position);
    }
    public void TriggerShoot()
    {
