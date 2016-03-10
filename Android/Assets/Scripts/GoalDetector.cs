@@ -14,7 +14,8 @@ public class GoalDetector : MonoBehaviour
    /// Event to be triggered when the rigidbody enters a trigger with 'Goal' tag.
    /// </summary>
    public event void1Bool BallEvent = null;
-   public AudioSource Goal;
+   public AudioSource[] Goal;
+   public ParticleSystem[] GoalParticles;
    public AudioSource Out;
    public Animator Close;
    #endregion  //End public members
@@ -77,7 +78,14 @@ public class GoalDetector : MonoBehaviour
                }
             }
             _state = MotionState.Quiet;
-            Goal.Play();
+            foreach (AudioSource asc in Goal)
+            {
+               asc.Play();
+            }
+            foreach (ParticleSystem ps in GoalParticles)
+            {
+               ps.Play();
+            }
             Close.SetBool("End", true);
             //Debug.Log("<color=green>Collision with " + other.transform.name + "</color>");
          }

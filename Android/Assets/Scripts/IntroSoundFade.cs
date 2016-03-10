@@ -12,7 +12,7 @@ public class IntroSoundFade : MonoBehaviour
    /// List of audio sources to control its volume.
    /// </summary>
    public SoundSwapper[] GeneralAudios;
-   public AudioSource Heart;
+   public AudioSource[] PersonalSound;
    /// <summary>
    /// Initial volume for the audios.
    /// </summary>
@@ -58,14 +58,14 @@ public class IntroSoundFade : MonoBehaviour
    /// </summary>
    void Start()
    {
-      _initiated = GeneralAudios != null && GeneralAudios.Length != 0 && Heart != null && PlayerAnimator != null;
+      _initiated = GeneralAudios != null && GeneralAudios.Length != 0 && PersonalSound != null && PersonalSound.Length != 0 && PlayerAnimator != null;
       if (!_initiated)
       {
          Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined. Sounds references missing. </color>");
       }
       else
       {
-         _initHeartVolume = Heart.volume;
+         _initHeartVolume = PersonalSound[0].volume;
          foreach (SoundSwapper ss in GeneralAudios)
          {
             ss.MaxVolume = InitVolume;
@@ -88,7 +88,10 @@ public class IntroSoundFade : MonoBehaviour
             {
                ss.MaxVolume = volume;
             }
-            Heart.volume = (1 - Mathf.Clamp01(perc)) * _initHeartVolume;
+            foreach (AudioSource ss in PersonalSound)
+            {
+               ss.volume = (1 - Mathf.Clamp01(perc)) * _initHeartVolume;
+            }
             _animateVolume = perc < 1;
          }
       }
