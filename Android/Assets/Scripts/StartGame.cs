@@ -40,6 +40,16 @@ public class StartGame : MonoBehaviour
    /// </summary>
    void Update()
    {
+      if (_initiated)
+      {
+         //TODO erase this
+         if (!_started)
+         {
+            _started = true;
+            StartMethod();
+         }
+         //----------------
+      }
    }
    #endregion  //End monobehaviour methods
 
@@ -65,5 +75,8 @@ public class StartGame : MonoBehaviour
    //-----------------------------------------------------------//
    #region Private members
    private bool _initiated;
+   //TODO erase this
+   private bool _started = false;
+   //--------------------------
    #endregion  //End private members
 }

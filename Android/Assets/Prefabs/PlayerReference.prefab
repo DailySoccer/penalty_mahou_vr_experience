@@ -979,7 +979,6 @@ MonoBehaviour:
   AbleToShoot: 0
   BallKick: {fileID: 8253552}
   Ball: {fileID: 0}
-  Raycast: {fileID: 0}
   Force: 13
   ErrorForcePer: 0.1
   ErrorDeviation: 0.1
@@ -1046,7 +1045,8 @@ MonoBehaviour:
   - {fileID: 11457816}
   - {fileID: 11473984}
   - {fileID: 11460658}
-  SoundSourceGroup: []
+  SoundSourceGroup:
+  - {fileID: 8259914}
 --- !u!114 &11469096
 MonoBehaviour:
   m_ObjectHideFlags: 1

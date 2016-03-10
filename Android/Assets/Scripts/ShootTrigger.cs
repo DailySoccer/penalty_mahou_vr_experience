@@ -19,8 +19,29 @@ public class ShootTrigger : MonoBehaviour
    public void SetTargetJump(Vector3 targetJump)
    {
       _jumpDir = "";
-      Vector3 diff = targetJump - transform.position;
-      //TODO calculate direction to jump to
+      Vector3 diff = targetJump - GoalKeeper.transform.position;
+      if (diff.z > 0)
+      {
+         _jumpDir += "R";
+      }
+      else
+      {
+         _jumpDir += "L";
+      }
+      float unitaryHeight = diff.y / 2.44f;
+      if (unitaryHeight < 0.33f)
+      {
+         _jumpDir += "L";
+      }
+      else if (unitaryHeight < 0.66f)
+      {
+         _jumpDir += "M";
+      }
+      else
+      {
+         _jumpDir += "H";
+      }
+      Debug.Log("Jumping to " + _jumpDir + " " + diff + ";" + targetJump + ";" + GoalKeeper.transform.position);
    }
    public void TriggerShoot()
    {

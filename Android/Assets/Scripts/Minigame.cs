@@ -8,7 +8,7 @@ public class Minigame : MonoBehaviour
    //                      PUBLIC MEMBERS                       //
    //-----------------------------------------------------------//
    #region Public members
-   public float TOTAL_TIME = 60;
+   public float TOTAL_TIME = 30;
    public Animator EndGame;
    public ShootTrigger GoalkeeperJumper;
    public Shooter PlayerShoot;
@@ -46,7 +46,7 @@ public class Minigame : MonoBehaviour
       _initiated = GoalKeeper != null && Raycaster != null && Crosshair != null && Clock != null;
       if (_initiated)
       {
-         ClockTrans.localScale = Crosshair.CrosshairGraphic.localScale = Vector3.zero;
+         ClockTrans.localScale = Crosshair.CrosshairGraphic().localScale = Vector3.zero;
          _INITGoalKeeper = GoalKeeper.rotation;
          _goalkeeperJump = GoalKeeper.position;
          HALF_PERIOD = TOTAL_TIME * 0.5f + HUDAnimTime;
@@ -68,26 +68,27 @@ public class Minigame : MonoBehaviour
          {
             Vector3 target = Raycaster.RaycastPoint();
             float now = Time.time;
-            float percTime = now - (_startTime + HUDAnimTime) / TOTAL_TIME;
-            Clock.fillAmount = 1 - Mathf.Clamp01(percTime);
-            if (Clock.fillAmount < 1)
+            float percTime = (now - (_startTime + HUDAnimTime)) / TOTAL_TIME;
+            float normPerc = Mathf.Clamp01(percTime);
+            Clock.fillAmount = normPerc;
+            if (normPerc < 1)
             {
                _goalkeeperJump += (target - _goalkeeperJump).normalized * Time.deltaTime * AdaptFactor;
                Vector3 seeTarget = _goalkeeperJump + Vector3.right * 5;
                seeTarget.y = 0;
-               GoalKeeper.rotation = Quaternion.Lerp(GoalKeeper.rotation, Quaternion.LookRotation(_goalkeeperJump), AdaptFactor * Time.deltaTime);
+               GoalKeeper.rotation = Quaternion.Lerp(GoalKeeper.rotation, Quaternion.LookRotation(seeTarget - GoalKeeper.transform.position), AdaptFactor * Time.deltaTime);
             }
-            else if (Clock.fillAmount == 1 && !_finished)
+            else if (normPerc == 1 && !_finished)
             {
-               _finished = false;
+               _finished = true;
                PlayerShoot.SetTarget(Raycaster.RaycastPoint());
                GoalkeeperJumper.SetTargetJump(_goalkeeperJump);
                RefereeReference.AbleToShoot();
             }
-            float perc = (HALF_PERIOD - Mathf.Abs(now - HALF_PERIOD)) / HUDAnimTime;
+            float perc = (HALF_PERIOD - Mathf.Abs((now - _startTime) - HALF_PERIOD)) / HUDAnimTime;
             float clampPerc = Mathf.Clamp01(perc);
             GoalKeeper.rotation = Quaternion.Lerp(_INITGoalKeeper, GoalKeeper.rotation, clampPerc);
-            Crosshair.CrosshairGraphic.localScale = ClockTrans.localScale = Vector3.one * clampPerc;
+            Crosshair.CrosshairGraphic().localScale = ClockTrans.localScale = Vector3.one * clampPerc;
             _active = (now - _startTime) < (TOTAL_TIME + 2 * HUDAnimTime);
             if (!_active)
             {

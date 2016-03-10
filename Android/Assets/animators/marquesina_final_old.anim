@@ -5,13 +5,14 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: marquesina_final
+  m_Name: marquesina_final_old
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
   m_RotationCurves: []
   m_CompressedRotationCurves: []
+  m_EulerCurves: []
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves:
@@ -25,16 +26,17 @@ AnimationClip:
         tangentMode: 10
       - time: 3.0333333
         value: 0
-        inSlope: .146341473
-        outSlope: .146341473
+        inSlope: 0.14634147
+        outSlope: 0.14634147
         tangentMode: 10
-      - time: 6.44999981
+      - time: 6.45
         value: 1
-        inSlope: .292682946
-        outSlope: .292682946
+        inSlope: 0.29268295
+        outSlope: 0.29268295
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_Color.r
     path: black
     classID: 212
@@ -49,16 +51,17 @@ AnimationClip:
         tangentMode: 10
       - time: 3.0333333
         value: 0
-        inSlope: .146341473
-        outSlope: .146341473
+        inSlope: 0.14634147
+        outSlope: 0.14634147
         tangentMode: 10
-      - time: 6.44999981
+      - time: 6.45
         value: 1
-        inSlope: .292682946
-        outSlope: .292682946
+        inSlope: 0.29268295
+        outSlope: 0.29268295
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_Color.g
     path: black
     classID: 212
@@ -73,16 +76,17 @@ AnimationClip:
         tangentMode: 10
       - time: 3.0333333
         value: 0
-        inSlope: .146341473
-        outSlope: .146341473
+        inSlope: 0.14634147
+        outSlope: 0.14634147
         tangentMode: 10
-      - time: 6.44999981
+      - time: 6.45
         value: 1
-        inSlope: .292682946
-        outSlope: .292682946
+        inSlope: 0.29268295
+        outSlope: 0.29268295
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_Color.b
     path: black
     classID: 212
@@ -97,26 +101,27 @@ AnimationClip:
         tangentMode: 10
       - time: 3.0333333
         value: 1
-        inSlope: -.5
-        outSlope: -.5
+        inSlope: -0.5
+        outSlope: -0.5
         tangentMode: 10
       - time: 4.0333333
         value: 0
-        inSlope: -.5
-        outSlope: -.5
+        inSlope: -0.5
+        outSlope: -0.5
         tangentMode: 10
-      - time: 6.44999981
+      - time: 6.45
         value: 0
-        inSlope: .599999905
-        outSlope: .599999905
+        inSlope: 0.5999999
+        outSlope: 0.5999999
         tangentMode: 10
       - time: 7.2833333
         value: 1
-        inSlope: 1.19999981
-        outSlope: 1.19999981
+        inSlope: 1.1999998
+        outSlope: 1.1999998
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_Color.a
     path: black
     classID: 212
@@ -141,6 +146,7 @@ AnimationClip:
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_Color.a
     path: fondo
     classID: 212
@@ -165,6 +171,7 @@ AnimationClip:
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_Color.a
     path: continuara
     classID: 212
@@ -216,11 +223,14 @@ AnimationClip:
     pptrCurveMapping: []
   m_AnimationClipSettings:
     serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
     m_StopTime: 7.2833333
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
     m_LoopTime: 0
     m_LoopBlend: 0
     m_LoopBlendOrientation: 0
@@ -242,16 +252,17 @@ AnimationClip:
         tangentMode: 10
       - time: 3.0333333
         value: 0
-        inSlope: .146341473
-        outSlope: .146341473
+        inSlope: 0.14634147
+        outSlope: 0.14634147
         tangentMode: 10
-      - time: 6.44999981
+      - time: 6.45
         value: 1
-        inSlope: .292682946
-        outSlope: .292682946
+        inSlope: 0.29268295
+        outSlope: 0.29268295
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_Color.r
     path: black
     classID: 212
@@ -266,16 +277,17 @@ AnimationClip:
         tangentMode: 10
       - time: 3.0333333
         value: 0
-        inSlope: .146341473
-        outSlope: .146341473
+        inSlope: 0.14634147
+        outSlope: 0.14634147
         tangentMode: 10
-      - time: 6.44999981
+      - time: 6.45
         value: 1
-        inSlope: .292682946
-        outSlope: .292682946
+        inSlope: 0.29268295
+        outSlope: 0.29268295
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_Color.g
     path: black
     classID: 212
@@ -290,16 +302,17 @@ AnimationClip:
         tangentMode: 10
       - time: 3.0333333
         value: 0
-        inSlope: .146341473
-        outSlope: .146341473
+        inSlope: 0.14634147
+        outSlope: 0.14634147
         tangentMode: 10
-      - time: 6.44999981
+      - time: 6.45
         value: 1
-        inSlope: .292682946
-        outSlope: .292682946
+        inSlope: 0.29268295
+        outSlope: 0.29268295
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_Color.b
     path: black
     classID: 212
@@ -314,26 +327,27 @@ AnimationClip:
         tangentMode: 10
       - time: 3.0333333
         value: 1
-        inSlope: -.5
-        outSlope: -.5
+        inSlope: -0.5
+        outSlope: -0.5
         tangentMode: 10
       - time: 4.0333333
         value: 0
-        inSlope: -.5
-        outSlope: -.5
+        inSlope: -0.5
+        outSlope: -0.5
         tangentMode: 10
-      - time: 6.44999981
+      - time: 6.45
         value: 0
-        inSlope: .599999905
-        outSlope: .599999905
+        inSlope: 0.5999999
+        outSlope: 0.5999999
         tangentMode: 10
       - time: 7.2833333
         value: 1
-        inSlope: 1.19999981
-        outSlope: 1.19999981
+        inSlope: 1.1999998
+        outSlope: 1.1999998
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_Color.a
     path: black
     classID: 212
@@ -358,6 +372,7 @@ AnimationClip:
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_Color.a
     path: fondo
     classID: 212
@@ -382,6 +397,7 @@ AnimationClip:
         tangentMode: 10
       m_PreInfinity: 2
       m_PostInfinity: 2
+      m_RotationOrder: 4
     attribute: m_Color.a
     path: continuara
     classID: 212

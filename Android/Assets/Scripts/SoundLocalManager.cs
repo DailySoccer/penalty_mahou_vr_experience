@@ -61,7 +61,10 @@ public class SoundLocalManager : MonoBehaviour
    //                  MONOBEHAVIOUR METHODS                    //
    //-----------------------------------------------------------//
    #region Monobehaviour methods
-   void Satart()
+   /// <summary>
+   /// Unity Start() method.
+   /// </summary>
+   void Start()
    {
       _initiated = SoundGroup != null && SoundGroup.Length != 0 && SoundSourceGroup != null && SoundSourceGroup.Length != 0;
       if (_initiated)
