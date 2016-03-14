@@ -40,12 +40,6 @@ public class WorldTracking : MonoBehaviour
       _initiated = TrackingTransform != null;
       if (_initiated)
       {
-         transform.SetParent(TrackingTransform);
-         transform.localPosition = WorldRelativePosition;
-         if (TrackRotation)
-         {
-            transform.localRotation = Quaternion.identity;
-         }
       }
       else
       {
