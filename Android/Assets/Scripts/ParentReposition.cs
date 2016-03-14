@@ -85,7 +85,10 @@ public class ParentReposition : MonoBehaviour
             //float perc = (now - _startTime) / RepositionTime;
             float formatPerc = Time.deltaTime * RepositionFactor;/*Mathf.Clamp01(perc);*/
             transform.position = Vector3.Lerp(transform.position, targetPosition, formatPerc);
-            transform.rotation = Quaternion.Lerp(transform.rotation, NewParent.rotation, formatPerc);
+            if (ResetLocalRotation)
+            {
+               transform.rotation = Quaternion.Lerp(transform.rotation, NewParent.rotation, formatPerc);
+            }
             /*if (perc >= 1)
             {
                _restarted = false;

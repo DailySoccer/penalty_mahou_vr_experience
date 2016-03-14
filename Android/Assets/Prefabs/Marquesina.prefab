@@ -25,6 +25,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 484390}
   - 212: {fileID: 21280640}
+  - 114: {fileID: 11425882}
   m_Layer: 0
   m_Name: black
   m_TagString: Untagged
@@ -74,8 +75,8 @@ GameObject:
   - 4: {fileID: 491886}
   - 95: {fileID: 9531906}
   - 114: {fileID: 11433804}
-  - 114: {fileID: 11482670}
   - 114: {fileID: 11476974}
+  - 114: {fileID: 11430944}
   m_Layer: 0
   m_Name: Marquesina
   m_TagString: Untagged
@@ -338,6 +339,35 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11425882
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0134ec21f611d540aaf0fbea11dc341, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NewParent: {fileID: 0}
+  NewLocalPosition: {x: 0, y: 0, z: 2}
+  ResetLocalRotation: 0
+  RepositionFactor: 0
+--- !u!114 &11430944
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 127954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c5c4d9d7f77c94cbf70fb141bba066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TrackingTransform: {fileID: 0}
+  WorldRelativePosition: {x: -2, y: 0, z: 0}
+  TrackRotation: 0
 --- !u!114 &11433804
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -373,21 +403,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RefereeReference: {fileID: 0}
---- !u!114 &11482670
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 127954}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0134ec21f611d540aaf0fbea11dc341, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  NewParent: {fileID: 0}
-  NewLocalPosition: {x: 0, y: 0, z: 2}
-  ResetLocalRotation: 1
-  RepositionFactor: 2
 --- !u!212 &21212408
 SpriteRenderer:
   m_ObjectHideFlags: 1

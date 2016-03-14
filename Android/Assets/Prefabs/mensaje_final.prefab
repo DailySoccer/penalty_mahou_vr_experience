@@ -25,6 +25,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 401662}
   - 212: {fileID: 21204716}
+  - 114: {fileID: 11433518}
   m_Layer: 0
   m_Name: black
   m_TagString: Untagged
@@ -57,7 +58,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 470378}
   - 95: {fileID: 9531340}
-  - 114: {fileID: 11481956}
+  - 114: {fileID: 11437746}
   m_Layer: 0
   m_Name: mensaje_final
   m_TagString: Untagged
@@ -220,12 +221,12 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11481956
+--- !u!114 &11433518
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 129556}
+  m_GameObject: {fileID: 117392}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d0134ec21f611d540aaf0fbea11dc341, type: 3}
@@ -233,8 +234,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NewParent: {fileID: 0}
   NewLocalPosition: {x: 0, y: 0, z: 2}
-  ResetLocalRotation: 1
-  RepositionFactor: 2
+  ResetLocalRotation: 0
+  RepositionFactor: 0
+--- !u!114 &11437746
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53c5c4d9d7f77c94cbf70fb141bba066, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TrackingTransform: {fileID: 0}
+  WorldRelativePosition: {x: -2, y: 0, z: 0}
+  TrackRotation: 0
 --- !u!212 &21203440
 SpriteRenderer:
   m_ObjectHideFlags: 1
