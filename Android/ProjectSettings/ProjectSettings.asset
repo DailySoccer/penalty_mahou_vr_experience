@@ -158,8 +158,8 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: C:/Proyectos/penaltyVR/Android/Assets/Signature/unusual.keystore
+  AndroidKeyaliasName: unusual
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
   androidEnableBanner: 1
