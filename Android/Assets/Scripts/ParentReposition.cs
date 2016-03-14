@@ -23,8 +23,8 @@ public class ParentReposition : MonoBehaviour
    /// <summary>
    /// Time to reposition to parent trnasform.
    /// </summary>
-   [Range(0,10)]
-   public float RepositionTime = 0;
+   [Range(0,20)]
+   public float RepositionFactor = 0;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
@@ -45,7 +45,7 @@ public class ParentReposition : MonoBehaviour
       _initiated = NewParent != null;
       if (_initiated)
       {
-         if (RepositionTime == 0)
+         if (RepositionFactor == 0)
          {
             transform.SetParent(NewParent);
             transform.localPosition = NewLocalPosition;
@@ -71,25 +71,25 @@ public class ParentReposition : MonoBehaviour
    /// </summary>
    void Update()
    {
-      if (_initiated && RepositionTime != 0)
+      if (_initiated && RepositionFactor != 0)
       {
          Vector3 targetPosition = NewParent.position + NewParent.right * NewLocalPosition.x + NewParent.up * NewLocalPosition.y + NewParent.forward * NewLocalPosition.z;
-         if ((transform.position - targetPosition).magnitude > 0.5f || Quaternion.Angle(transform.rotation, NewParent.rotation) > 10)
+         if ((transform.position - targetPosition).magnitude > 0.5f || Quaternion.Angle(transform.rotation, NewParent.rotation) > 5)
          {
-            float now = Time.time;
+            /*float now = Time.time;
             if (!_restarted)
             {
                _restarted = true;
                _startTime = now;
-            }
-            float perc = (now - _startTime) / RepositionTime;
-            float formatPerc = Mathf.Clamp01(perc);
+            }*/
+            //float perc = (now - _startTime) / RepositionTime;
+            float formatPerc = Time.deltaTime * RepositionFactor;/*Mathf.Clamp01(perc);*/
             transform.position = Vector3.Lerp(transform.position, targetPosition, formatPerc);
             transform.rotation = Quaternion.Lerp(transform.rotation, NewParent.rotation, formatPerc);
-            if (perc >= 1)
+            /*if (perc >= 1)
             {
                _restarted = false;
-            }
+            }*/
          }
          else
          {
@@ -112,5 +112,6 @@ public class ParentReposition : MonoBehaviour
    private bool _initiated;
    private bool _restarted;
    private float _startTime;
+   private Vector3 _oldPosition;
    #endregion  //End private members
 }
