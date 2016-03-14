@@ -73,7 +73,7 @@ public class ParentReposition : MonoBehaviour
    {
       if (_initiated && RepositionTime != 0)
       {
-         Vector3 targetPosition = NewParent.position + NewLocalPosition;
+         Vector3 targetPosition = NewParent.position + NewParent.right * NewLocalPosition.x + NewParent.up * NewLocalPosition.y + NewParent.forward * NewLocalPosition.z;
          if ((transform.position - targetPosition).magnitude > 0.5f || Quaternion.Angle(transform.rotation, NewParent.rotation) > 10)
          {
             float now = Time.time;
