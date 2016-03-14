@@ -1437,6 +1437,7 @@ MonoBehaviour:
   NewParent: {fileID: 688470985}
   NewLocalPosition: {x: 0, y: 0, z: 0}
   ResetLocalRotation: 1
+  RepositionTime: 0
 --- !u!4 &441975564
 Transform:
   m_ObjectHideFlags: 0
@@ -1717,6 +1718,7 @@ MonoBehaviour:
   NewParent: {fileID: 1550667201}
   NewLocalPosition: {x: 0, y: 0, z: 2}
   ResetLocalRotation: 1
+  RepositionTime: 0
 --- !u!4 &540335956 stripped
 Transform:
   m_PrefabParentObject: {fileID: 440936, guid: b3049905d474ee54aa9c0333dfb99769, type: 2}
@@ -1839,6 +1841,7 @@ MonoBehaviour:
   NewParent: {fileID: 307314600}
   NewLocalPosition: {x: 0, y: 0, z: 0}
   ResetLocalRotation: 1
+  RepositionTime: 0
 --- !u!4 &700387016
 Transform:
   m_ObjectHideFlags: 0
@@ -2775,6 +2778,7 @@ MonoBehaviour:
   NewParent: {fileID: 688470985}
   NewLocalPosition: {x: 0, y: 0, z: 2}
   ResetLocalRotation: 1
+  RepositionTime: 0
 --- !u!1 &1286163113
 GameObject:
   m_ObjectHideFlags: 0
@@ -3492,10 +3496,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 15922095}
     m_Modifications:
-    - target: {fileID: 11433804, guid: cd266e1c627781e4091e905f085a2640, type: 2}
-      propertyPath: PersonalSound.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 491886, guid: cd266e1c627781e4091e905f085a2640, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0.075355224
@@ -3528,10 +3528,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 16
       objectReference: {fileID: 0}
-    - target: {fileID: 11476974, guid: cd266e1c627781e4091e905f085a2640, type: 2}
-      propertyPath: RefereeReference
-      value: 
-      objectReference: {fileID: 1274688259}
     - target: {fileID: 11482670, guid: cd266e1c627781e4091e905f085a2640, type: 2}
       propertyPath: NewParent
       value: 
@@ -3553,18 +3549,6 @@ Prefab:
       value: 
       objectReference: {fileID: 307314603}
     - target: {fileID: 11433804, guid: cd266e1c627781e4091e905f085a2640, type: 2}
-      propertyPath: Heart
-      value: 
-      objectReference: {fileID: 307314602}
-    - target: {fileID: 11433804, guid: cd266e1c627781e4091e905f085a2640, type: 2}
-      propertyPath: PlayerAnimator
-      value: 
-      objectReference: {fileID: 1654790812}
-    - target: {fileID: 127954, guid: cd266e1c627781e4091e905f085a2640, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433804, guid: cd266e1c627781e4091e905f085a2640, type: 2}
       propertyPath: PersonalSound.Array.data[0]
       value: 
       objectReference: {fileID: 307314602}
@@ -3572,6 +3556,14 @@ Prefab:
       propertyPath: PersonalSound.Array.data[1]
       value: 
       objectReference: {fileID: 307314606}
+    - target: {fileID: 11433804, guid: cd266e1c627781e4091e905f085a2640, type: 2}
+      propertyPath: PlayerAnimator
+      value: 
+      objectReference: {fileID: 1654790812}
+    - target: {fileID: 11476974, guid: cd266e1c627781e4091e905f085a2640, type: 2}
+      propertyPath: RefereeReference
+      value: 
+      objectReference: {fileID: 1274688259}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd266e1c627781e4091e905f085a2640, type: 2}
   m_IsPrefabParent: 0

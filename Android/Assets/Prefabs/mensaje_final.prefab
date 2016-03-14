@@ -234,6 +234,7 @@ MonoBehaviour:
   NewParent: {fileID: 0}
   NewLocalPosition: {x: 0, y: 0, z: 2}
   ResetLocalRotation: 1
+  RepositionTime: 1
 --- !u!212 &21203440
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -354,7 +354,9 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  PersonalSound: []
+  PersonalSound:
+  - {fileID: 0}
+  - {fileID: 0}
   InitVolume: 0.2
   FinalVolume: 0.6
   FadeTime: 3
@@ -385,6 +387,7 @@ MonoBehaviour:
   NewParent: {fileID: 0}
   NewLocalPosition: {x: 0, y: 0, z: 2}
   ResetLocalRotation: 1
+  RepositionTime: 1
 --- !u!212 &21212408
 SpriteRenderer:
   m_ObjectHideFlags: 1

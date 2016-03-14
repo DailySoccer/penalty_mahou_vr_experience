@@ -20,6 +20,11 @@ public class ParentReposition : MonoBehaviour
    /// If true, the transform's localRotation will be set to Quaternion.identity.
    /// </summary>
    public bool ResetLocalRotation = true;
+   /// <summary>
+   /// Time to reposition to parent trnasform.
+   /// </summary>
+   [Range(0,10)]
+   public float RepositionTime = 0;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
@@ -40,17 +45,56 @@ public class ParentReposition : MonoBehaviour
       _initiated = NewParent != null;
       if (_initiated)
       {
-         transform.SetParent(NewParent);
-         transform.localPosition = NewLocalPosition;
-         if (ResetLocalRotation)
+         if (RepositionTime == 0)
          {
-            transform.localRotation = Quaternion.identity;
+            transform.SetParent(NewParent);
+            transform.localPosition = NewLocalPosition;
+            if (ResetLocalRotation)
+            {
+               transform.localRotation = Quaternion.identity;
+            }
+         }
+         else
+         {
+            _restarted = false;
          }
       }
       else
       {
          Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined." + (NewParent == null ? " Transfrom reference missing." : string.Empty) +
                    " </color>");
+      }
+   }
+
+   /// <summary>
+   /// Unity Update method.
+   /// </summary>
+   void Update()
+   {
+      if (_initiated && RepositionTime != 0)
+      {
+         Vector3 targetPosition = NewParent.position + NewLocalPosition;
+         if ((transform.position - targetPosition).magnitude > 0.5f || Quaternion.Angle(transform.rotation, NewParent.rotation) > 10)
+         {
+            float now = Time.time;
+            if (!_restarted)
+            {
+               _restarted = true;
+               _startTime = now;
+            }
+            float perc = (now - _startTime) / RepositionTime;
+            float formatPerc = Mathf.Clamp01(perc);
+            transform.position = Vector3.Lerp(transform.position, targetPosition, formatPerc);
+            transform.rotation = Quaternion.Lerp(transform.rotation, NewParent.rotation, formatPerc);
+            if (perc >= 1)
+            {
+               _restarted = false;
+            }
+         }
+         else
+         {
+            _restarted = false;
+         }
       }
    }
    #endregion  //End monobehaviour methods
@@ -66,5 +110,7 @@ public class ParentReposition : MonoBehaviour
    //-----------------------------------------------------------//
    #region Private members
    private bool _initiated;
+   private bool _restarted;
+   private float _startTime;
    #endregion  //End private members
 }
