@@ -77,7 +77,7 @@ GameObject:
   - 114: {fileID: 11482670}
   - 114: {fileID: 11476974}
   m_Layer: 0
-  m_Name: marquesina
+  m_Name: Marquesina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -354,7 +354,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  Heart: {fileID: 0}
+  PersonalSound: []
   InitVolume: 0.2
   FinalVolume: 0.6
   FadeTime: 3
