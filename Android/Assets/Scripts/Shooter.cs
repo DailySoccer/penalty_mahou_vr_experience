@@ -95,22 +95,6 @@ public class Shooter : ResetElement
                    " </color>");
       }
    }
-
-   //TODO remove this
-   void Update()
-   {
-      if (_initiated)
-      {
-         /*if (Input.GetKeyDown(KeyCode.RightShift))
-         {
-            Respawn();
-         }
-         if (Input.GetKeyDown(KeyCode.Space))
-         {
-            Shoot();
-         }*/
-      }
-   }
    #endregion  //End monobehaviour methods
 
    //-----------------------------------------------------------//

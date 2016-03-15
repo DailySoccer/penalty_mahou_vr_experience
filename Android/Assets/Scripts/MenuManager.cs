@@ -17,6 +17,10 @@ public class MenuManager : ResetElement
    /// </summary>
    public MenuElement StartButton;
    /// <summary>
+   /// Button to restart application when hovered.
+   /// </summary>
+   public MenuElement RestartButton;
+   /// <summary>
    /// MenuElement references to select from when hovered.
    /// </summary>
    public List<MenuElement> SelectElements = new List<MenuElement>();
@@ -68,9 +72,14 @@ public class MenuManager : ResetElement
    /// </summary>
    void Start()
    {
-      _initiated = StartButton != null && SelectElements != null && SelectElements.Count > 0;
+      _initiated = RestartButton != null && StartButton != null && SelectElements != null && SelectElements.Count > 0;
       if (_initiated)
       {
+         RestartGame reference = GameObject.FindObjectOfType<RestartGame>();
+         if (reference != null)
+         {
+            RestartButton.SetTriggerFunction(reference.Restart);
+         }
          StartButton.SetTriggerFunction(StartButtonAction);
          foreach (MenuElement me in SelectElements)
          {
@@ -81,6 +90,7 @@ public class MenuManager : ResetElement
       else
       {
          Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined." + (StartButton == null ? " Start button \'MenuElement\' reference missing." : string.Empty) +
+                   (RestartButton == null ? " Restart button \'MenuElement\' reference missing." : string.Empty) +
                    (SelectElements == null || SelectElements.Count == 0 ? " Selection elements \'MenuElement\' references missing." : string.Empty) +
                    " </color>");
       }

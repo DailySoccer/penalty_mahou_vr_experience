@@ -33,6 +33,8 @@ public class IntroSoundFade : ResetElement
    /// Player to trigger initial animation.
    /// </summary>
    public Animator PlayerAnimator;
+   [Range(0,1)]
+   public float PersonalInitVolume = 0.5f;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
@@ -107,7 +109,7 @@ public class IntroSoundFade : ResetElement
       }
       else
       {
-         _initHeartVolume = PersonalSound[0].volume;
+         _initHeartVolume = PersonalInitVolume;
          foreach (SoundSwapper ss in GeneralAudios)
          {
             ss.MaxVolume = InitVolume;

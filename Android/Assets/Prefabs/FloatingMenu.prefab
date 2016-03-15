@@ -689,7 +689,6 @@ Transform:
   m_LocalScale: {x: 1.6576191, y: 1.6576183, z: 1.6576189}
   m_Children:
   - {fileID: 22490070}
-  - {fileID: 22426154}
   m_Father: {fileID: 414350}
   m_RootOrder: 7
 --- !u!65 &6500360
@@ -1174,7 +1173,7 @@ MonoBehaviour:
     SelectedScale: {x: 1.2, y: 1.2, z: 1.2}
     SelectedPosition: {x: 0, y: 0, z: 1}
     SelectedRotation: {x: 0, y: 0, z: 0}
-  SelectedTarget: {fileID: 0}
+  SelectedTarget: {fileID: 22490070}
 --- !u!114 &11460710
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1502,6 +1501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StartButton: {fileID: 11459962}
+  RestartButton: {fileID: 0}
   SelectElements:
   - {fileID: 11484576}
   - {fileID: 11450398}
@@ -1811,14 +1811,14 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 199620}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 489406}
-  m_RootOrder: 1
+  m_Father: {fileID: 22490070}
+  m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.0000019057732, y: 0}
   m_SizeDelta: {x: 1, y: 1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &22427804
@@ -2073,7 +2073,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 22426154}
   m_Father: {fileID: 489406}
   m_RootOrder: 0
   m_AnchorMin: {x: 0.5, y: 0.5}

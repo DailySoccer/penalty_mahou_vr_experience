@@ -21,7 +21,7 @@ public class AnimatorRestart : ResetElement
    public override void Restart()
    {
       Animator aux = gameObject.GetComponent<Animator>();
-      if (aux != null)
+      if(aux != null)
       {
          aux.SetBool("Restart", true);
       }

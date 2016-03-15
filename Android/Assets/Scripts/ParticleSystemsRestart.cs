@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
-public class RestartGame : MonoBehaviour
+public class ParticleSystemsRestart : ResetElement
 {
    //-----------------------------------------------------------//
    //                      PUBLIC MEMBERS                       //
@@ -15,16 +16,15 @@ public class RestartGame : MonoBehaviour
    //-----------------------------------------------------------//
    #region Public methods
    /// <summary>
-   /// Restart animators and audio sources in the scene.
+   /// Method to trigger when reset.
    /// </summary>
-   public void Restart(MenuElement invoker)
+   public override void Restart()
    {
-      ResetElement[] resetElements = GameObject.FindObjectsOfType<ResetElement>();
-      foreach (ResetElement re in resetElements)
+      ParticleSystem[] aux = gameObject.GetComponentsInChildren<ParticleSystem>();
+      foreach (ParticleSystem ps in aux)
       {
-         re.Restart();
+         ps.Stop();
       }
-      Debug.Log("Restarting demo");
    }
    #endregion  //End public methods
 
@@ -32,12 +32,6 @@ public class RestartGame : MonoBehaviour
    //                  MONOBEHAVIOUR METHODS                    //
    //-----------------------------------------------------------//
    #region Monobehaviour methods
-   /// <summary>
-   /// Unity Update() method
-   /// </summary>
-   void Update()
-   {
-   }
    #endregion  //End monobehaviour methods
 
    //-----------------------------------------------------------//
@@ -50,6 +44,5 @@ public class RestartGame : MonoBehaviour
    //                      PRIVATE MEMBERS                      //
    //-----------------------------------------------------------//
    #region Private members
-   private bool _initiated;
    #endregion  //End private members
 }

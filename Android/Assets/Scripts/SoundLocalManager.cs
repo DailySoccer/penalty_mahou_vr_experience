@@ -14,6 +14,8 @@ public class SoundLocalManager : ResetElement
    /// </summary>
    public SoundSwapper[] SoundGroup;
    public AudioSource[] SoundSourceGroup;
+   [Range(0, 1)]
+   public float InitialAudiosVolume = 0.5f;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
@@ -52,6 +54,7 @@ public class SoundLocalManager : ResetElement
          }
          foreach (AudioSource ads in SoundSourceGroup)
          {
+            ads.volume = InitialAudiosVolume;
             ads.Play();
          }
       }

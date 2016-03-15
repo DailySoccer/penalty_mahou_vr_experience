@@ -92,7 +92,7 @@ public class SoundSwapper : MonoBehaviour
    {
       if (_initiated)
       {
-         if (Time.time - _startDelay > _nextDelay)
+         if (!_paused && Time.time - _startDelay > _nextDelay)
          {
             if (_letsPlaySound)
             {
