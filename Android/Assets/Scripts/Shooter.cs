@@ -2,7 +2,7 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class Shooter : MonoBehaviour
+public class Shooter : ResetElement
 {
    //-----------------------------------------------------------//
    //                      PUBLIC MEMBERS                       //
@@ -61,7 +61,15 @@ public class Shooter : MonoBehaviour
       {
          Ball.velocity = Ball.angularVelocity = Vector3.zero;
          Ball.transform.position = _respawnPoint;
+         AbleToShoot = false;
       }
+   }
+   /// <summary>
+   /// Method to trigger when reset.
+   /// </summary>
+   public override void Restart()
+   {
+      Respawn();
    }
    #endregion  //End public methods
 

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
 public class StartGame : MonoBehaviour
 {
@@ -23,6 +24,9 @@ public class StartGame : MonoBehaviour
    //                  MONOBEHAVIOUR METHODS                    //
    //-----------------------------------------------------------//
    #region Monobehaviour methods
+   /// <summary>
+   /// Unity Start() method
+   /// </summary>
    void Start()
    {
       _initiated = SoundManagers != null && SoundManagers.Length != 0 && StartAnimator != null && TriggerStartMenu != null;

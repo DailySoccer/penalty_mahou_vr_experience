@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
-public class MenuRaycast : MonoBehaviour
+public class MenuRaycast : ResetElement
 {
    //-----------------------------------------------------------//
    //                      PUBLIC MEMBERS                       //
@@ -22,6 +23,13 @@ public class MenuRaycast : MonoBehaviour
    //                      PUBLIC METHODS                       //
    //-----------------------------------------------------------//
    #region Public methods
+   /// <summary>
+   /// Method to be called when reset.
+   /// </summary>
+   public override void Restart()
+   {
+      Init();
+   }
    #endregion  //End public methods
 
    //-----------------------------------------------------------//
@@ -29,7 +37,14 @@ public class MenuRaycast : MonoBehaviour
    //-----------------------------------------------------------//
    #region Monobehaviour methods
    /// <summary>
-   /// Unity Update() method
+   /// Unity Start() method
+   /// </summary>
+   void Start()
+   {
+      Init();
+   }
+   /// <summary>
+   /// Unity FixedUpdate() method
    /// </summary>
    void FixedUpdate()
    {
@@ -61,6 +76,10 @@ public class MenuRaycast : MonoBehaviour
    //                      PRIVATE METHODS                      //
    //-----------------------------------------------------------//
    #region Private methods
+   private void Init()
+   {
+      _lastHit = null;
+   }
    #endregion  //End private methods
 
    //-----------------------------------------------------------//

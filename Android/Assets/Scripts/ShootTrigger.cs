@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
 public class ShootTrigger : MonoBehaviour
 {
@@ -16,6 +17,10 @@ public class ShootTrigger : MonoBehaviour
    //                      PUBLIC METHODS                       //
    //-----------------------------------------------------------//
    #region Public methods
+   /// <summary>
+   /// Set target position for jump-
+   /// </summary>
+   /// <param name="targetJump"></param>
    public void SetTargetJump(Vector3 targetJump)
    {
       _jumpDir = "";
@@ -43,16 +48,23 @@ public class ShootTrigger : MonoBehaviour
       }
       //Debug.Log("Jumping to " + _jumpDir + " " + diff + ";" + targetJump + ";" + GoalKeeper.transform.position);
    }
+   /// <summary>
+   /// Shoot ball
+   /// </summary>
    public void TriggerShoot()
    {
       ShooterPlayer.Shoot();
    }
-
+   /// <summary>
+   /// Shoot Goalkeeper jump
+   /// </summary>
    public void GoalKeeperJump()
    {
       GoalKeeper.SetBool(_jumpDir, true);
    }
-
+   /// <summary>
+   /// Prepare Goalkeeper before jump
+   /// </summary>
    public void GoalKeeperStand()
    {
       GoalKeeper.SetBool("Hold", true);

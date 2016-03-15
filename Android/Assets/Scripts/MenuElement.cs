@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
-public class MenuElement : MonoBehaviour
+public class MenuElement : ResetElement
 {
    //-----------------------------------------------------------//
    //                      PUBLIC MEMBERS                       //
@@ -131,6 +132,13 @@ public class MenuElement : MonoBehaviour
          SetState(false);
       }
    }
+   /// <summary>
+   /// Method to trigger when reset.
+   /// </summary>
+   public override void Restart()
+   {
+      RestartOptions();
+   }
    #endregion  //End public methods
 
    //-----------------------------------------------------------//
@@ -207,9 +215,13 @@ public class MenuElement : MonoBehaviour
    #region Private methods
    private void RestartOptions()
    {
-      LoadImage.fillAmount = _loadPerc = 0;
-      _onHover = false;
-      _workToDo = false;
+      if (_initiated)
+      {
+         LoadImage.fillAmount = _loadPerc = 0;
+         _onHover = false;
+         _workToDo = false;
+         SelectedTarget.localScale = _INIT.SelectedScale;
+      }
    }
    private void SetState(bool onHover)
    {

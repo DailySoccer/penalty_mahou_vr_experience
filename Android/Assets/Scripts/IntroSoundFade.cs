@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
-public class IntroSoundFade : MonoBehaviour
+public class IntroSoundFade : ResetElement
 {
    //-----------------------------------------------------------//
    //                      PUBLIC MEMBERS                       //
@@ -47,6 +48,13 @@ public class IntroSoundFade : MonoBehaviour
       _startTime = Time.time;
       PlayerAnimator.SetBool("Start", true);
    }
+   /// <summary>
+   /// What to do when object reset.
+   /// </summary>
+   public override void Restart()
+   {
+      Init();
+   }
    #endregion  //End public methods
 
    //-----------------------------------------------------------//
@@ -58,19 +66,7 @@ public class IntroSoundFade : MonoBehaviour
    /// </summary>
    void Start()
    {
-      _initiated = GeneralAudios != null && GeneralAudios.Length != 0 && PersonalSound != null && PersonalSound.Length != 0 && PlayerAnimator != null;
-      if (!_initiated)
-      {
-         Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined. Sounds references missing. </color>");
-      }
-      else
-      {
-         _initHeartVolume = PersonalSound[0].volume;
-         foreach (SoundSwapper ss in GeneralAudios)
-         {
-            ss.MaxVolume = InitVolume;
-         }
-      }
+      Init();
    }
    /// <summary>
    /// Unity Update() method
@@ -102,6 +98,22 @@ public class IntroSoundFade : MonoBehaviour
    //                      PRIVATE METHODS                      //
    //-----------------------------------------------------------//
    #region Private methods
+   private void Init()
+   {
+      _initiated = GeneralAudios != null && GeneralAudios.Length != 0 && PersonalSound != null && PersonalSound.Length != 0 && PlayerAnimator != null;
+      if (!_initiated)
+      {
+         Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined. Sounds references missing. </color>");
+      }
+      else
+      {
+         _initHeartVolume = PersonalSound[0].volume;
+         foreach (SoundSwapper ss in GeneralAudios)
+         {
+            ss.MaxVolume = InitVolume;
+         }
+      }
+   }
    #endregion  //End private methods
 
    //-----------------------------------------------------------//

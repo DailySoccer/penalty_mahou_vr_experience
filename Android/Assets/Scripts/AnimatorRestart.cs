@@ -1,14 +1,14 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
-public class HelpTrigger : MonoBehaviour
+public class AnimatorRestart : ResetElement
 {
    //-----------------------------------------------------------//
    //                      PUBLIC MEMBERS                       //
    //-----------------------------------------------------------//
    #region Public members
-   public Animator HelpAnimator;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
@@ -16,13 +16,14 @@ public class HelpTrigger : MonoBehaviour
    //-----------------------------------------------------------//
    #region Public methods
    /// <summary>
-   /// Triggers help animation.
+   /// Method to trigger when reset.
    /// </summary>
-   public void TriggerHelp()
+   public override void Restart()
    {
-      if (_initiated)
+      Animator aux = gameObject.GetComponent<Animator>();
+      if (aux != null)
       {
-         HelpAnimator.SetBool("Help", true);
+         aux.SetBool("Restart", true);
       }
    }
    #endregion  //End public methods
@@ -31,24 +32,6 @@ public class HelpTrigger : MonoBehaviour
    //                  MONOBEHAVIOUR METHODS                    //
    //-----------------------------------------------------------//
    #region Monobehaviour methods
-   void Start()
-   {
-      _initiated = HelpAnimator != null;
-      if (_initiated)
-      {
-      }
-      else
-      {
-         Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined." +
-                     " </color>");
-      }
-   }
-   /// <summary>
-   /// Unity Update() method
-   /// </summary>
-   void Update()
-   {
-   }
    #endregion  //End monobehaviour methods
 
    //-----------------------------------------------------------//
@@ -61,6 +44,5 @@ public class HelpTrigger : MonoBehaviour
    //                      PRIVATE MEMBERS                      //
    //-----------------------------------------------------------//
    #region Private members
-   private bool _initiated;
    #endregion  //End private members
 }

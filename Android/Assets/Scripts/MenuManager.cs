@@ -2,8 +2,9 @@
 using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
-public class MenuManager : MonoBehaviour
+public class MenuManager : ResetElement
 {
    //-----------------------------------------------------------//
    //                      PUBLIC MEMBERS                       //
@@ -48,6 +49,14 @@ public class MenuManager : MonoBehaviour
    {
       StartCall = null;
    }
+   /// <summary>
+   /// 
+   /// </summary>
+   public override void Restart()
+   {
+      _lastSelected = null;
+      _selectedOption = -1;
+   }
    #endregion  //End public methods
 
    //-----------------------------------------------------------//
@@ -67,6 +76,7 @@ public class MenuManager : MonoBehaviour
          {
             me.SetTriggerFunction(SelectButtonAction);
          }
+         _selectedOption = -1;
       }
       else
       {
@@ -91,7 +101,7 @@ public class MenuManager : MonoBehaviour
    {
       if (_initiated)
       {
-         if (StartCall != null)
+         if (StartCall != null && _selectedOption != -1)
          {
             StartCall();
          }
@@ -106,6 +116,7 @@ public class MenuManager : MonoBehaviour
       }
       _lastSelected = invoker;
       _selectedOption = SelectElements.IndexOf(invoker);
+      //TODO add texture change, maybe take texture from invoker?
       //Debug.Log("<color=blue>Selected index: " + _selectedOption + "</color>");
    }
    #endregion  //End private methods

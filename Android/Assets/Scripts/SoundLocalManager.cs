@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using System;
 
-public class SoundLocalManager : MonoBehaviour
+public class SoundLocalManager : ResetElement
 {
    //-----------------------------------------------------------//
    //                      PUBLIC MEMBERS                       //
@@ -54,6 +55,13 @@ public class SoundLocalManager : MonoBehaviour
             ads.Play();
          }
       }
+   }
+   /// <summary>
+   /// Method to trigger when reset.
+   /// </summary>
+   public override void Restart()
+   {
+      PauseSound();
    }
    #endregion  //End public methods
 

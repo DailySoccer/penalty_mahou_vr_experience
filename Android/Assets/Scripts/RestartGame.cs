@@ -2,13 +2,12 @@
 using UnityEngine.UI;
 using System.Collections;
 
-public class HelpTrigger : MonoBehaviour
+public class RestartGame : MonoBehaviour
 {
    //-----------------------------------------------------------//
    //                      PUBLIC MEMBERS                       //
    //-----------------------------------------------------------//
    #region Public members
-   public Animator HelpAnimator;
    #endregion  //End public members
 
    //-----------------------------------------------------------//
@@ -16,13 +15,14 @@ public class HelpTrigger : MonoBehaviour
    //-----------------------------------------------------------//
    #region Public methods
    /// <summary>
-   /// Triggers help animation.
+   /// Restart animators and audio sources in the scene.
    /// </summary>
-   public void TriggerHelp()
+   public void Restart()
    {
-      if (_initiated)
+      ResetElement[] resetElements = GameObject.FindObjectsOfType<ResetElement>();
+      foreach (ResetElement re in resetElements)
       {
-         HelpAnimator.SetBool("Help", true);
+         re.Restart();
       }
    }
    #endregion  //End public methods
@@ -31,18 +31,6 @@ public class HelpTrigger : MonoBehaviour
    //                  MONOBEHAVIOUR METHODS                    //
    //-----------------------------------------------------------//
    #region Monobehaviour methods
-   void Start()
-   {
-      _initiated = HelpAnimator != null;
-      if (_initiated)
-      {
-      }
-      else
-      {
-         Debug.Log("<color=#FFA500FF>" + this.GetType().ToString() + ".cs - Warning: Initial parameters undefined." +
-                     " </color>");
-      }
-   }
    /// <summary>
    /// Unity Update() method
    /// </summary>
@@ -61,6 +49,5 @@ public class HelpTrigger : MonoBehaviour
    //                      PRIVATE MEMBERS                      //
    //-----------------------------------------------------------//
    #region Private members
-   private bool _initiated;
    #endregion  //End private members
 }
