@@ -77,6 +77,7 @@ GameObject:
   - 95: {fileID: 9531340}
   - 114: {fileID: 11437746}
   - 114: {fileID: 11411126}
+  - 114: {fileID: 11476066}
   m_Layer: 0
   m_Name: mensaje_final
   m_TagString: Untagged
@@ -446,7 +447,7 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Sprite: {fileID: 21300000, guid: 8dc06a774e78dda40bfbacbecf8ec720, type: 3}
   m_Type: 3
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 0
@@ -479,6 +480,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 2
+--- !u!114 &11476066
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcdebb44ba76fb84aaea5689213a53b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &21203440
 SpriteRenderer:
   m_ObjectHideFlags: 1

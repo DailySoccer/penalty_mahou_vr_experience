@@ -39,7 +39,7 @@ public class MenuElement : ResetElement
       /// <summary>
       /// Size for selected state
       /// </summary>
-      public Vector3 SelectedScale = Vector3.one * 1.2f;
+      public Vector3 SelectedScale = Vector3.one;
       /// <summary>
       /// New local position when selected
       /// </summary>
@@ -156,13 +156,13 @@ public class MenuElement : ResetElement
       _initiated = LoadImage != null && (!Selection || SelectedTarget != null);
       if (_initiated)
       {
-         RestartOptions();
          if (Selection)
          {
             _INIT.SelectedPosition = SelectedTarget.localPosition;
             _INIT.SelectedRotation = SelectedTarget.localEulerAngles;
             _INIT.SelectedScale = SelectedTarget.localScale;
          }
+         RestartOptions();
       }
       else
       {
@@ -189,7 +189,10 @@ public class MenuElement : ResetElement
                _loadPerc = 1 - ((now - _startTime) / UnloadTime);
             }
             _loadPerc = Mathf.Clamp01(_loadPerc);
-            LoadImage.fillAmount = _loadPerc;
+            if (!_isSelected)
+            {
+               LoadImage.fillAmount = _loadPerc;
+            }
             _workToDo = _onHover && _loadPerc < 1 || !_onHover && _loadPerc > 0;
             if (_onHover && _loadPerc >= 1)
             {
@@ -245,6 +248,10 @@ public class MenuElement : ResetElement
       _animToDo = true;
       _isSelected = isSelected;
       _startTimeAnim = Time.time - (_isSelected ? _animPerc : 1 - _animPerc) * SelectionAnimTime;
+      if (!isSelected)
+      {
+         LoadImage.fillAmount = _loadPerc = 0;
+      }
    }
    #endregion  //End private methods
 
