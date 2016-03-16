@@ -49,6 +49,10 @@ public class MenuManager : ResetElement
    /// Reference to team selection animator.
    /// </summary>
    public Animator SelectTeamAnimator;
+   /// <summary>
+   /// Material to change its texture
+   /// </summary>
+   public Material PlayersMaterial;
    /*/// <summary>
    /// MenuElement references to select from when hovered.
    /// </summary>
@@ -101,7 +105,7 @@ public class MenuManager : ResetElement
    /// </summary>
    void Start()
    {
-      _initiated = SelectTeamAnimator != null &&  Background != null && ButtonPrefab != null && RestartButton != null && StartButton != null && SelectElements != null && SelectElements.Count > 0;
+      _initiated = PlayersMaterial != null && SelectTeamAnimator != null &&  Background != null && ButtonPrefab != null && RestartButton != null && StartButton != null && SelectElements != null && SelectElements.Count > 0;
       if (_initiated)
       {
          SetStartCall(TriggerFadeOut);
@@ -174,6 +178,7 @@ public class MenuManager : ResetElement
                    (ButtonPrefab == null ? " Menu element button prefab reference missing." : string.Empty) +
                    (Background == null ? " Menu background reference missing." : string.Empty) +
                    (SelectTeamAnimator == null ? " Menu animator reference missing." : string.Empty) +
+                   (PlayersMaterial == null ? " Players material reference missing." : string.Empty) +
                    (SelectElements == null || SelectElements.Count == 0 ? " Selection elements \'MenuElement\' references missing." : string.Empty) +
                    " </color>");
       }
@@ -213,7 +218,7 @@ public class MenuManager : ResetElement
          _lastSelected = invoker;
       }
       _selectedOption = _menuElements.IndexOf(invoker);
-      //TODO add texture change, maybe take texture from invoker?
+      PlayersMaterial.SetTexture("_MainTex", SelectElements[_selectedOption].TextureRef);
       //Debug.Log("<color=blue>Selected index: " + _selectedOption + "</color>");
    }
    private void TriggerFadeOut()
