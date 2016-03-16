@@ -91,6 +91,10 @@ public class MenuManager : ResetElement
    /// </summary>
    public override void Restart()
    {
+      if (_lastSelected != null)
+      {
+         _lastSelected.Deselect();
+      }
       _lastSelected = null;
       _selectedOption = -1;
    }
