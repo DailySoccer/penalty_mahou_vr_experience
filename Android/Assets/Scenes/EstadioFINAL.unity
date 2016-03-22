@@ -3051,6 +3051,70 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 13671052, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Radius
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 13671052, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Height
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 13671052, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Center.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 13641020, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Radius
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 13641020, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Height
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 13641020, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Center.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 13541330, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Radius
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 13509230, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Radius
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 13685950, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Radius
+      value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 13685950, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Height
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 13685950, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Center.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 13688032, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Radius
+      value: 0.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 13688032, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Height
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 13688032, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Center.y
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 13650132, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Radius
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 13650132, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
+      propertyPath: m_Height
+      value: 1.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1bb079ca0374bd542b6461d0d811121f, type: 2}
   m_IsPrefabParent: 0
