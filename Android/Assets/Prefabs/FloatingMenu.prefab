@@ -655,31 +655,43 @@ MonoBehaviour:
   ButtonPrefab: {fileID: 150788, guid: b7bdd83825db4464fbf2a22ef16f85d6, type: 2}
   SelectElements:
   - SpriteRef: {fileID: 21300000, guid: a0e3e8816fc40a9479cfbd57434463f3, type: 3}
-    TextureRef: {fileID: 2800000, guid: adbd858aacaf4e942aa3b6b1191743ec, type: 3}
+    TextureRef: {fileID: 2800000, guid: dfdd82bb9e49dc549a7ab0ce424787a5, type: 3}
+    TextureLeg: {fileID: 2800000, guid: 4b6167044229a3d4b8101c0b46b5e038, type: 3}
   - SpriteRef: {fileID: 21300000, guid: 036e21462726eb541aa95e15db55b64f, type: 3}
-    TextureRef: {fileID: 2800000, guid: 3b014d4e0e1e6334594b52a0b74b7717, type: 3}
+    TextureRef: {fileID: 2800000, guid: f80f53f834ab7164791e2cf962269d25, type: 3}
+    TextureLeg: {fileID: 2800000, guid: b8cd2b35b3bb2ce4babdafd70fe8de3c, type: 3}
   - SpriteRef: {fileID: 21300000, guid: c93e2ec317614924bb1569f4a6f82990, type: 3}
-    TextureRef: {fileID: 2800000, guid: 8b3d4d2f53aea7d4aa937eeff86260f1, type: 3}
+    TextureRef: {fileID: 2800000, guid: da39d13fa725f07498a006de9af9d564, type: 3}
+    TextureLeg: {fileID: 2800000, guid: 305fab41f5780404391a74fd54fbe60c, type: 3}
   - SpriteRef: {fileID: 21300000, guid: bbc153b303f2e6f4494ad8ab4a5816c2, type: 3}
-    TextureRef: {fileID: 2800000, guid: 5eb9b6c821b4a2b43a5a718f56c40b77, type: 3}
+    TextureRef: {fileID: 2800000, guid: b671c862ab7d92a4ca4ec1c58301bfb1, type: 3}
+    TextureLeg: {fileID: 2800000, guid: 00bd66b6c9abf754ba6e18a155b23cdd, type: 3}
   - SpriteRef: {fileID: 21300000, guid: 0b0c15666a0553140ad18f1bd7441b28, type: 3}
-    TextureRef: {fileID: 2800000, guid: 2980709389391774e822cfc06c1b6fb2, type: 3}
+    TextureRef: {fileID: 2800000, guid: 4e9f407fbebf82647ba5127aacf0c6e2, type: 3}
+    TextureLeg: {fileID: 2800000, guid: 553fa8989cca8b042b91e64474a99632, type: 3}
   - SpriteRef: {fileID: 21300000, guid: 66504cf960a7f7b40804ba0071740d3a, type: 3}
-    TextureRef: {fileID: 2800000, guid: c3de7f2d25c476346bf286e8b27ac53c, type: 3}
+    TextureRef: {fileID: 2800000, guid: 3fc5c0e2c829ddd47bc4450148a31321, type: 3}
+    TextureLeg: {fileID: 2800000, guid: b2252ae270457934f97bd9672c943117, type: 3}
   - SpriteRef: {fileID: 21300000, guid: 5bda9b8c2c5715047ab1d19cc80cac49, type: 3}
-    TextureRef: {fileID: 2800000, guid: 9640a362e87bd3c4a8fb74f740ebf33b, type: 3}
+    TextureRef: {fileID: 2800000, guid: a23b4dc4ea4b0ec44b863d5359e47135, type: 3}
+    TextureLeg: {fileID: 2800000, guid: 1a4b9f5a8371e634dbed144190c6a9f6, type: 3}
   - SpriteRef: {fileID: 21300000, guid: b9d56a2e997be1a449e71f342bd05943, type: 3}
-    TextureRef: {fileID: 2800000, guid: fe0859c3808fa6444a6c111618455d59, type: 3}
+    TextureRef: {fileID: 2800000, guid: 8d51c5b48adc44d43a896e1c0cf6b637, type: 3}
+    TextureLeg: {fileID: 2800000, guid: c847facb248e3f74b8cca5217aced0ba, type: 3}
   - SpriteRef: {fileID: 21300000, guid: b451155f08dfe914890947e58d0ccf4f, type: 3}
-    TextureRef: {fileID: 2800000, guid: 3e3e353145447334e9c44798dc2bb56c, type: 3}
+    TextureRef: {fileID: 2800000, guid: 3e2f429e71ff9394ba540628b4bd514f, type: 3}
+    TextureLeg: {fileID: 2800000, guid: 4efd65a24ed66f843a7253ea2f6e7611, type: 3}
   - SpriteRef: {fileID: 21300000, guid: e56f02b82336b6649b37a5eaa408ce0c, type: 3}
-    TextureRef: {fileID: 2800000, guid: 1dad10eafaab92b4fa57370ac718b339, type: 3}
+    TextureRef: {fileID: 2800000, guid: 922b8c204e355bd498d5c27323cc0f23, type: 3}
+    TextureLeg: {fileID: 2800000, guid: 8f292607d76d28144bce7c45a8dd7190, type: 3}
   - SpriteRef: {fileID: 21300000, guid: f9f1bebb4219d6c49ae1a731d749bbcf, type: 3}
-    TextureRef: {fileID: 2800000, guid: bd4ea12959cb5bb43b895cedf9bbb18d, type: 3}
+    TextureRef: {fileID: 2800000, guid: 9c90bc50242626b40b56ffb7445da932, type: 3}
+    TextureLeg: {fileID: 2800000, guid: 420167942c8ac8549b06d6846b9b4db1, type: 3}
   Background: {fileID: 22445228}
   FinalUniformScale: 0.01
   SelectTeamAnimator: {fileID: 9518996}
-  PlayersMaterial: {fileID: 0}
+  PlayersMaterial: {fileID: 2100000, guid: 40f62f653dc6ed040ab045479614a6c4, type: 2}
+  PlayersLegMaterial: {fileID: 2100000, guid: 0690dea43b7c82243a6a0bb108df9417, type: 2}
 --- !u!114 &11496020
 MonoBehaviour:
   m_ObjectHideFlags: 1

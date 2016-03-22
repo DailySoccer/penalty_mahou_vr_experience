@@ -32,6 +32,7 @@ public class MenuManager : ResetElement
    {
       public Sprite SpriteRef;
       public Texture TextureRef;
+      public Texture TextureLeg;
    }
    /// <summary>
    /// Configuration elements.
@@ -53,6 +54,10 @@ public class MenuManager : ResetElement
    /// Material to change its texture
    /// </summary>
    public Material PlayersMaterial;
+   /// <summary>
+   /// Material to change its texture for leggings.
+   /// </summary>
+   public Material PlayersLegMaterial;
    /*/// <summary>
    /// MenuElement references to select from when hovered.
    /// </summary>
@@ -109,7 +114,7 @@ public class MenuManager : ResetElement
    /// </summary>
    void Start()
    {
-      _initiated = PlayersMaterial != null && SelectTeamAnimator != null &&  Background != null && ButtonPrefab != null && RestartButton != null && StartButton != null && SelectElements != null && SelectElements.Count > 0;
+      _initiated = PlayersLegMaterial != null && PlayersMaterial != null && SelectTeamAnimator != null &&  Background != null && ButtonPrefab != null && RestartButton != null && StartButton != null && SelectElements != null && SelectElements.Count > 0;
       if (_initiated)
       {
          SetStartCall(TriggerFadeOut);
@@ -183,6 +188,7 @@ public class MenuManager : ResetElement
                    (Background == null ? " Menu background reference missing." : string.Empty) +
                    (SelectTeamAnimator == null ? " Menu animator reference missing." : string.Empty) +
                    (PlayersMaterial == null ? " Players material reference missing." : string.Empty) +
+                   (PlayersLegMaterial == null ? " Players leggings material reference missing." : string.Empty) +
                    (SelectElements == null || SelectElements.Count == 0 ? " Selection elements \'MenuElement\' references missing." : string.Empty) +
                    " </color>");
       }
@@ -223,6 +229,7 @@ public class MenuManager : ResetElement
       }
       _selectedOption = _menuElements.IndexOf(invoker);
       PlayersMaterial.SetTexture("_MainTex", SelectElements[_selectedOption].TextureRef);
+      PlayersLegMaterial.SetTexture("_MainTex", SelectElements[_selectedOption].TextureLeg);
       //Debug.Log("<color=blue>Selected index: " + _selectedOption + "</color>");
    }
    private void TriggerFadeOut()
